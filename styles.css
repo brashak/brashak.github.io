@@ -1,0 +1,22 @@
+.h1 {
+    text-align: center;
+    background-color: peachpuff;
+    color: olive;
+    font-size: large;
+}
+.h2 {
+    text-align: center;
+    color: olive;
+    font-size: large;
+}
+.li {
+    color: olive;
+}
+#footer {
+    text-align: center;
+    background-color: peachpuff;
+    color: olive;
+}
+#body {
+    background-color: salmon;
+}
