@@ -15,6 +15,7 @@ ul {
 }
 header{
     background-color:darkolivegreen;
+    border: 2px solid;
     
 }
 footer {
@@ -29,6 +30,8 @@ body {
     background-color:white;
     max-width: 750px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 1em;
 }
 #picture{
     float: right;
