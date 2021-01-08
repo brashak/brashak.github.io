@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
-    background-color: peachpuff;
-    color: olive;
+    background-color: olive;
+    color: peachpuff;
     font-size: large;
 }
 h2 {
@@ -14,9 +14,9 @@ li {
 }
 footer {
     text-align: center;
-    background-color: peachpuff;
-    color: olive;
+    background-color: olive;
+    color: peachpuff;
 }
 body {
-    background-color: salmon;
+    background-color:white;
 }
