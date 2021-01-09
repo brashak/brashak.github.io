@@ -24,12 +24,9 @@ body{
     height: 200px;
 }
 ul{
-    color: darkolivegreen;
-    text-align: center;
+    color: darkolivegreen;  
 }
-li{
-    text-align: center;
-}
+
 footer{
     background-color: darkolivegreen;
     text-align: center;
