@@ -20,12 +20,12 @@ body{
 }
 #picture{
     float:right;
-    width: 150px;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
 ul{
     color: darkolivegreen;
-    text-align: center;
+    text-align: left;
 }
 footer{
     background-color: darkolivegreen;
