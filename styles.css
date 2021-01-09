@@ -28,11 +28,14 @@ body{
     border: 5px solid black;
 }
 ul{
-    color: black;  
+    color: darkolivegreen;  
 }
 main a:hover{
     color: darkolivegreen;
     font-weight: bold;
+}
+main a:link{
+    color: black;
 }
 footer{
     background-color: darkolivegreen;
