@@ -25,6 +25,7 @@ body{
     width: 150px;
     height: auto;
     margin-bottom: 1em;
+    border: 5px solid black;
 }
 ul{
     color: darkolivegreen;  
