@@ -10,6 +10,7 @@ h2{
     font-size: 2em;
 }
 header{
+    background-color: darkolivegreen;
     padding: 1em;
 }
 body{
@@ -20,8 +21,8 @@ body{
 }
 #picture{
     float:right;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: auto;
 }
 ul{
     color: darkolivegreen;  
