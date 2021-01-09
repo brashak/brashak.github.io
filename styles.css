@@ -25,7 +25,10 @@ body{
 }
 ul{
     color: darkolivegreen;
-    text-align: left;
+    text-align: center;
+}
+li{
+    text-align: center;
 }
 footer{
     background-color: darkolivegreen;
