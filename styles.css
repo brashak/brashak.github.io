@@ -22,8 +22,9 @@ body{
 }
 #picture{
     float:right;
-    width: 175px;
+    width: 150px;
     height: auto;
+    margin-bottom: 1em;
 }
 ul{
     color: darkolivegreen;  
