@@ -3,6 +3,7 @@ h1{
     background-color: darkolivegreen;
     color: peachpuff;
     font-size: 2em;
+    font-weight: bold;
 }
 h2{
     text-align: center;
@@ -27,7 +28,10 @@ body{
 ul{
     color: darkolivegreen;  
 }
-
+main a:hover{
+    color: darkolivegreen;
+    font-weight: bold;
+}
 footer{
     background-color: darkolivegreen;
     text-align: center;
