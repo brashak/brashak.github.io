@@ -24,7 +24,6 @@ body{
     align-content: center;
 }
 #picture{
-    float:right;
     width: 150px;
     height: auto;
     margin-bottom: 1em;
