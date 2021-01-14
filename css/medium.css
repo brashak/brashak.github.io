@@ -10,4 +10,9 @@
         color: darkolivegreen;
         font-size: 2.5em;
     }
+    #picture{
+        float: right;
+        width: 150px;
+        height: auto;
+    }
 }
