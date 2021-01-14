@@ -13,6 +13,7 @@ h2{
 header{
     background-color: darkolivegreen;
     padding: 1em;
+    align-content: center;
 }
 body{
     margin: 0 auto;
@@ -20,6 +21,7 @@ body{
     font-family: 'Dosis', sans-serif;
     width: 750px;
     background-color: lightgray;
+    align-content: center;
 }
 #picture{
     float:right;
