@@ -1,4 +1,7 @@
-h1{
+
+html{
+    
+    h1{
     text-align: center;
     background-color: darkolivegreen;
     color: peachpuff;
@@ -16,7 +19,7 @@ header{
 body{
     margin: 0 auto;
     font-size: 1.2em;
-    font-family:monospace;
+    font-family: 'Dosis', sans-serif;
     width: 750px;
     background-color: lightgray;
 }
