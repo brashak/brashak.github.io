@@ -14,5 +14,6 @@
         float: right;
         width: 150px;
         height: auto;
+        border: 5px solid black;
     }
 }
