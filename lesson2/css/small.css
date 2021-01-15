@@ -1,5 +1,5 @@
 
-    h1{
+h1{
     text-align: center;
     background-color: darkolivegreen;
     color: peachpuff;
@@ -14,6 +14,10 @@ header{
     background-color: darkolivegreen;
     padding: 1em;
     align-content: center;
+}
+.hicks-law{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
 }
 body{
     margin: 0 auto;
