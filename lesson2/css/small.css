@@ -27,8 +27,11 @@ body{
     width: 750px;
     background-color: lightgray;
     align-content: center;
+
+.home-grid{
     grid-template-columns: 110px auto;
     display: grid;
+}
 }
 footer{
     background-color: darkolivegreen;
