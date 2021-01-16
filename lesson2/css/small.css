@@ -13,7 +13,14 @@ h2{
 }
 h3{
     text-align:center;
+    color: darkolivegreen;
+}
+main a:link{
     color: black;
+}
+main a:hover{
+    color:black;
+    font-weight: bold;
 }
 header{
     
