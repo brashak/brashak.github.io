@@ -1,54 +1,52 @@
 
-  header {
-    background-color: darkolivegreen;
-    color: peachpuff;
-    padding: 1em;
-  }
-
-  body {
-    font-family: 'Dosis', sans-serif;
-    text-align:center;
-    background-color: lightgray;
-    padding: 5px;
-  }
-  
-  h1 {
-    font-size: 2em;
-    padding: 20px;
-    text-align: center;
-  }
-
-
-  h2, h3 {
-      font-size: 1.4em;
-      color: darkolivegreen
-      line-height: 0.5em;
-  }
-  
-  img {
-    width: 100%;
-    padding-top: 10px;
-  }
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: auto;
-   
-  }
-  
-  p {
-    font-size: 1em;
-    color: black;
-  }
-  
-  
-  
-  footer {
-    background-color: darkolivegreen;
-    color: peachpuff;
-    font-size: 1em;
-    text-align: center;
-    padding: 10px;
-  }
-  
+    h1{
+        text-align: center;
+        background-color: darkolivegreen;
+        color: peachpuff;
+        font-size: 1.5em;
+    }
+    h2{
+        text-align: center;
+        color: darkolivegreen;
+        font-size: 1.5em;
+    }
+    header{
+        background-color: darkolivegreen;
+        padding: 1em;
+        align-content: center;
+    }
+    body{
+        margin: 0 auto;
+        font-size: 1.2em;
+        font-family: 'Dosis', sans-serif;
+        width: 750px;
+        background-color: lightgray;
+        align-content: center;
+    }
+    #picture{
+        width: 150px;
+        height: auto;
+        margin-bottom: 1em;
+        
+    }
+    ul{
+        color: darkolivegreen;  
+    }
+    main a:hover{
+        color: darkolivegreen;
+        font-weight: bold;
+    }
+    main a:link{
+        color: black;
+    }
+    footer{
+        background-color: darkolivegreen;
+        text-align: center;
+        color: peachpuff;
+        padding: 1em;
+        margin-top: 1em;
+    }
+    #outputData{
+        text-align: center;
+    }
+    
