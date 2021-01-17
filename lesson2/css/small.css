@@ -31,12 +31,11 @@
         align-items: center;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         float: center;
-        width: 50%;
+        width: 33.33%;
         grid-column-gap: 15px;
-        justify-content: center;
       }
       .column-left, .column-right, .column-middle {
-        width: 100%;
+        width: 50%;
         display: block;
       }
       .row:after {
@@ -59,9 +58,9 @@
         margin: 0 auto;
         font-size: 1.2em;
         font-family: 'Dosis', sans-serif;
-        width: auto;
+        width: 100%;
         background-color: lightgray;
-        justify-content: center;
+        align-content: center;
     }
     #screenshot{
         width: 50%;
