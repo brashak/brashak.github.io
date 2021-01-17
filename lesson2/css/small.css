@@ -36,6 +36,7 @@
       }
       .left, .right, .middle {
         width: 25%;
+        display: block;
       }
       .row:after {
         display: block;
