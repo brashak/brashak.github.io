@@ -25,6 +25,9 @@
         align-content: center;
         width: 100%;
     }
+    section{
+        width: auto;
+    }
     body{
         margin: 0 auto;
         font-size: 1.2em;
