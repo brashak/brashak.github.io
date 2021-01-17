@@ -34,7 +34,7 @@
         width: 33.33%;
         grid-column-gap: 15px;
       }
-      .left, .right, .middle {
+      .column-left, .column-right, .column-middle {
         width: 50%;
         display: block;
       }
@@ -42,15 +42,15 @@
         display: block;
         clear: both;
       }
-    .left{
+    .column-left{
         grid-column: 1 /2;
         grid-row: 1 / 2;
     }
-    .middle{
+    .column-middle{
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
-    .right{
+    .column-right{
         grid-column: 5 / 6;
         grid-row: 1 / 2;
     }
