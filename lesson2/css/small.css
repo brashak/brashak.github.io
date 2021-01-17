@@ -35,7 +35,7 @@
         grid-column-gap: 15px;
       }
       .column-left, .column-right, .column-middle {
-        width: 50%;
+        width: 100%;
         display: block;
       }
       .row:after {
