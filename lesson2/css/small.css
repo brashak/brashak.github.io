@@ -27,7 +27,7 @@
     }
     .section{
         background-size: contain;
-        display: block;
+        display: grid;
         float: left;
         width: 33.33%;
       }
@@ -36,7 +36,7 @@
       }
       .row:after {
         content: "";
-        display: table;
+        display: block;
         clear: both;
       }
     body{
