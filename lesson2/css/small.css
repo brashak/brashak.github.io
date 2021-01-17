@@ -25,10 +25,10 @@
         align-content: center;
         width: 100%;
     }
-    .section{
+    .row{
         background-size: contain;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
         float: center;
         width: 33.33%;
         grid-column-gap: 15px;
@@ -37,7 +37,6 @@
         width: 25%;
       }
       .row:after {
-        content: "";
         display: block;
         clear: both;
       }
