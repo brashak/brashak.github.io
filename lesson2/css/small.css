@@ -25,7 +25,7 @@
         text-align: center;
         width: 100%;
     }
-    body{
+    .row{
         background-size: contain;
         display: grid;
         align-items: center;
