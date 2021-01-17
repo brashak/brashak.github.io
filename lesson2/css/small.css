@@ -27,8 +27,9 @@
     }
     .section{
         background-size: contain;
-        display: inline-grid;
-        float: left;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        float: center;
         width: 33.33%;
         grid-column-gap: 15px;
       }
@@ -40,6 +41,18 @@
         display: block;
         clear: both;
       }
+    .left{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    .middle{
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    .right{
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
     body{
         margin: 0 auto;
         font-size: 1.2em;
