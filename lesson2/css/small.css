@@ -27,7 +27,7 @@
     }
     .section{
         background-size: contain;
-        display: grid;
+        display: inline-grid;
         float: left;
         width: 33.33%;
         grid-column-gap: 15px;
