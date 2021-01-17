@@ -22,12 +22,13 @@
     header{
         background-color: darkolivegreen;
         padding: 1em;
-        align-content: center;
+        text-align: center;
         width: 100%;
     }
     .row{
         background-size: contain;
         display: grid;
+        align-items: center;
         grid-template-columns: 1fr 1fr 1fr;
         float: center;
         width: 33.33%;
@@ -59,11 +60,6 @@
         width: 100%;
         background-color: lightgray;
         align-content: center;
-    }
-    main{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: auto;
     }
     #screenshot{
         width: 25%;
