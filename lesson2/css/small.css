@@ -39,7 +39,7 @@
         margin: auto;
     }
     #screenshot{
-        width: 100%;
+        width: auto;
         height: 500px;
         background-size: contain;
         margin-bottom: 1em;
@@ -61,6 +61,7 @@
         color: peachpuff;
         padding: 1em;
         margin-top: 1em;
+        width: 100%;
     }
     #outputData{
         text-align: center;
