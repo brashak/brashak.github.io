@@ -58,7 +58,7 @@
         margin: 0 auto;
         font-size: 1.2em;
         font-family: 'Dosis', sans-serif;
-        width: 100%;
+        width: auto;
         background-color: lightgray;
         align-content: center;
     }
