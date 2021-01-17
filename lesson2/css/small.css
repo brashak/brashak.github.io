@@ -39,10 +39,9 @@
         margin: auto;
     }
     #screenshot{
-        width: auto;
-        height: 500px;
+        width: 100%;
         background-size: contain;
-        margin-bottom: 1em;
+        padding: 5em;
         
     }
     ul{
