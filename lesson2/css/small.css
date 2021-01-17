@@ -35,7 +35,7 @@
         grid-column-gap: 15px;
       }
       .left, .right, .middle {
-        width: 25%;
+        width: 50%;
         display: block;
       }
       .row:after {
@@ -63,7 +63,7 @@
         align-content: center;
     }
     #screenshot{
-        width: 25%;
+        width: 50%;
         height: 50%;
         background-size: contain;
         padding: 5em;
