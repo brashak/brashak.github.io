@@ -26,7 +26,8 @@
         width: 100%;
     }
     section{
-        width: auto;
+        background-size: contain;
+        display: block;
     }
     body{
         margin: 0 auto;
