@@ -29,7 +29,7 @@
         background-size: contain;
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         float: center;
         width: 33.33%;
         grid-column-gap: 15px;
@@ -51,7 +51,7 @@
         grid-row: 1 / 2;
     }
     .right{
-        grid-column: 3 / 3;
+        grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
     body{
