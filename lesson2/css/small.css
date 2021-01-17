@@ -25,6 +25,9 @@
         align-content: center;
         width: 100%;
     }
+    * {
+        box-sizing: border-box;
+      }
     .section{
         background-size: contain;
         display: block;
