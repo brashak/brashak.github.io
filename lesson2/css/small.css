@@ -8,7 +8,8 @@
         font-family: 'Dosis', sans-serif;
         display: grid;
         grid-template-columns: 110px auto;
-        align-items: center;}
+        align-items: center;
+        text-align: center;}
 
 .title-1, .title-2, .title-3 {
 font-size: 2em;
@@ -49,21 +50,27 @@ h3{
   padding: 1em;
   grid-column: 3 / 4;
   grid-row: 1 / 3;
-  width: 50%;
-  height: 50%;}
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px; }
 .screenshot-2 {
   display: grid;
   padding: 1em;
   grid-column: 3 / 4;
   grid-row: 5 / 7;
-  width: 50%;
-  height: 50%;}
+  height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px}
 .screenshot-3 { display: grid;
   padding: 1em;
   grid-column: 3 / 4;
   grid-row: 3 / 3;
-  width: 50%;
-  height: 50%;}
+  height: auto; 
+  width: auto; 
+  max-width: 300px; 
+  max-height: 300px;}
 
   footer{
     background-color: darkolivegreen;
