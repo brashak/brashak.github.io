@@ -1,97 +1,56 @@
+.design-grid {display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
-    h1{
-        text-align: center;
-        background-color: darkolivegreen;
-        color: peachpuff;
-        font-size: 1.5em;
-    }
-    h2{
-        text-align: center;
-        color: darkolivegreen;
-        font-size: 1.5em;
-    }
-    h3{
-        text-align: center;
-        color: darkolivegreen;
-        font-size: 1em;
-    }
-    h3 a:hover{
-        font-weight: bold;
-        color: black;
-    }
-    header{
-        background-color: darkolivegreen;
-        padding: 1em;
-        text-align: center;
-        width: 100%;
-    }
-    .row{
-        background-size: contain;
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        float: center;
-        width: 33.33%;
-        grid-column-gap: 15px;
-      }
-      .column-left, .column-right, .column-middle {
-        width: 50%;
-        display: block;
-      }
-      .row:after {
-        display: block;
-        clear: both;
-      }
-    .column-left{
-        grid-column: 1 /2;
-        grid-row: 1 / 2;
-    }
-    .column-middle{
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-    }
-    .column-right{
-        grid-column: 5 / 6;
-        grid-row: 1 / 2;
-    }
-    body{
-        margin: 0 auto;
-        font-size: 1.2em;
-        font-family: 'Dosis', sans-serif;
-        width: 100%;
-        background-color: lightgray;
-        align-content: center;
-    }
-    #screenshot{
-        width: 50%;
-        height: 50%;
-        background-size: contain;
-        padding: 5em;
-        
-    }
-    p{
-        text-align: center;
-        width: 50%;
-    }
-    row{
 
+.title-1 {
+font-size: 1.5em;
+margin-bottom: -1px;
+border-top: 5px double;
+border-bottom: 5px double;}
+
+
+
+.title-1 {padding: 1em; 
+    line-height: normal;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
     }
-    main a:hover{
-        color: darkolivegreen;
-        font-weight: bold;
+
+
+.hicks-paragraph {display: block; 
+    padding: 1em;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;}
+.white-space-paragraph {display: block; 
+    padding: 1em;
+    grid-column: 1 / 2;
+    grid-row: 3 / 6;}
+alignment-paragraph {display: block; 
+    padding: 1em;
+    grid-column: 1 / 2;
+    grid-row: 5 / 7;}
+
+.screenshot-1 {
+  display: grid;
+  padding: 1em;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;}
+.screenshot-2 {
+  display: grid;
+  padding: 1em;
+  grid-column: 3 / 4;
+  grid-row: 5 / 7;}
+.screenshot-3 { display: grid;
+  padding: 1em;
+  grid-column: 3 / 4;
+  grid-row: 3 / 3;}
+  
+  @media screen and (max-width: 550px) {
+/* beginning of media query */
+    .design-grid {
+    display: block;
     }
-    main a:link{
-        color: black;
-    }
-    footer{
-        background-color: darkolivegreen;
-        text-align: center;
-        color: peachpuff;
-        padding: 1em;
-        margin-top: 1em;
-        width: 100%;
-    }
-    #outputData{
-        text-align: center;
-    }
-    
+/* end of media query */
+}
+
+   
