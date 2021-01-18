@@ -19,7 +19,11 @@ font-family: 'Dosis', sans-serif;}
     grid-column: 1 / 3;
     grid-row: 1 / 2;
     }
-
+h3{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
 
 .hicks-paragraph {display: block; 
     padding: 1em;
