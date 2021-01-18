@@ -6,7 +6,7 @@
         padding: 1em;
         align-content: center;}
 
-.title-1, .title-2, .title-3 {
+.title-1 .title-2 .title-3 {
 font-size: 1.5em;
 margin-bottom: -1px;
 border-top: 5px double;
@@ -15,7 +15,7 @@ font-family: 'Dosis', sans-serif;}
 
 
 
-.title-1 {padding: 1em; 
+.title-1 .title-2 .title-3 {padding: 1em; 
     line-height: normal;
     grid-column: 1 / 3;
     grid-row: 1 / 2;
