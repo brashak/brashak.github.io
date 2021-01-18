@@ -1,5 +1,7 @@
 .design-grid {display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+ section {max-width: 960px;
+        margin: 0 auto;}
 
     header{
         background-color: darkolivegreen;
