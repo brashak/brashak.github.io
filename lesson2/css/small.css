@@ -6,9 +6,6 @@
         padding: 1em;
         align-content: center;
         font-family: 'Dosis', sans-serif;
-        display: grid;
-        grid-template-columns: 110px auto;
-        align-items: center;
         text-align: center;}
 
 .title-1, .title-2, .title-3 {
