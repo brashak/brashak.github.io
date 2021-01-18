@@ -51,6 +51,7 @@ h3{
   grid-row: 2 / 3;
   width: 100%;
   height: auto;
+  background-size: contain;
 }
 
 .screenshot-2 {
@@ -60,6 +61,7 @@ h3{
   grid-row: 2 / 3; 
   width: 100%;
   height: auto;
+  background-size: contain;
   }
 
 .screenshot-3 { display: grid;
@@ -68,6 +70,7 @@ h3{
   grid-row: 2 / 3;
   width: 100%;
   height: auto;
+  background-size: contain;
 }
 
   footer{
