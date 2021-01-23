@@ -10,10 +10,8 @@
         color: darkolivegreen;
         font-size: 2em;
     }
-    #picture{
-        float: right;
-        width: 150px;
-        height: auto;
-        border: 5px solid black;
+    nav ul{
+        display: flex;
     }
+   
 }

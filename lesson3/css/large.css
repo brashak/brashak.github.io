@@ -1,3 +1,5 @@
 @media only screen  and (min-width : 1224px) {
-    /* Styles */
+    main{
+        padding: 40px;
+    }
     }
