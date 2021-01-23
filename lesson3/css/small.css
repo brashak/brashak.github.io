@@ -26,12 +26,14 @@ nav {
     background-color: peachpuff;
     color: darkolivegreen;
     text-align: center;
+    padding: 10px;
 }
 nav ul{
     list-style-type: none;
     margin: 0 auto;
     padding: 5px;
     overflow: hidden;
+    display: block;
     
 }
 
