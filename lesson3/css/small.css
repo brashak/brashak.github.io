@@ -22,20 +22,17 @@ body{
     background-color: lightgray;
     align-content: center;
 }
-#picture{
-    width: 150px;
-    height: auto;
-    margin-bottom: 1em;
-    
+nav ul{
+    list-style-type: none;
 }
 ul{
     color: darkolivegreen;  
 }
-main a:hover{
+nav a:hover{
     color: darkolivegreen;
     font-weight: bold;
 }
-main a:link{
+nav a:link{
     color: black;
 }
 footer{
