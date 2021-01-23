@@ -9,6 +9,10 @@ h2{
     color: darkolivegreen;
     font-size: 1.5em;
 }
+h3{
+    text-align: center;
+    color: darkolivegreen;
+}
 header{
     background-color: darkolivegreen;
     padding: 1em;
