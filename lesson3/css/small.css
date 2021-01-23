@@ -1,0 +1,14 @@
+header{
+    background-color: darkolivegreen;
+    padding: 1em;
+    align-content: center;
+    width: 100%;
+}
+
+footer{
+    background-color: darkolivegreen;
+    text-align: center;
+    color: peachpuff;
+    padding: 1em;
+    margin-top: 1em;
+}
