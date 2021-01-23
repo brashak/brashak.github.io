@@ -56,6 +56,8 @@ nav a:link{
 }
 table{
     border-style: solid;
+    width: 100%;
+    padding: 5px; 
 }
 th td {
     text-align: center;
