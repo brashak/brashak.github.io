@@ -24,7 +24,13 @@ body{
 }
 nav ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: peachpuff;
+    color: darkolivegreen;
 }
+
 ul{
     color: darkolivegreen;  
 }
@@ -34,6 +40,9 @@ nav a:hover{
 }
 nav a:link{
     color: black;
+}
+table{
+    border-style: solid;
 }
 footer{
     background-color: darkolivegreen;
