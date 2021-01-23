@@ -23,7 +23,6 @@ body{
     margin: 0 auto;
     font-size: 1.2em;
     font-family: 'Dosis', sans-serif;
-    width: 750px;
     background-color: lightgray;
     align-content: center;
 }
@@ -46,9 +45,7 @@ nav ul{
 ul{
     color: darkolivegreen;  
 }
-li{
-    float: left;
-}
+
 nav a:hover{
     color: darkolivegreen;
     font-weight: bold;
