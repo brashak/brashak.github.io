@@ -22,13 +22,17 @@ body{
     background-color: lightgray;
     align-content: center;
 }
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+nav {
     background-color: peachpuff;
     color: darkolivegreen;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+    
 }
 
 ul{
@@ -43,6 +47,9 @@ nav a:link{
 }
 table{
     border-style: solid;
+}
+th {
+    text-align: center;
 }
 footer{
     background-color: darkolivegreen;
