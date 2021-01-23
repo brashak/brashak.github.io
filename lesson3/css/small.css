@@ -38,6 +38,9 @@ nav ul{
 ul{
     color: darkolivegreen;  
 }
+li{
+    float: left;
+}
 nav a:hover{
     color: darkolivegreen;
     font-weight: bold;
