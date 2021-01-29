@@ -89,7 +89,8 @@ ul{
         display: block;
     }
     .nav_menu
-    .menu_id li{
+
+    .responsive li{
       display: block;
     }
 

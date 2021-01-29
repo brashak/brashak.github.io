@@ -1,5 +1,5 @@
 function toggleMenu() {
-    document.getElementsByClassName("nav_menu")[0].classList.toggle("menu_id");
+    document.getElementsByClassName("nav_menu")[0].classList.toggle("responsive");
   }
  
 const day1 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
