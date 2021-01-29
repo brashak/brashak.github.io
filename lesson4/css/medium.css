@@ -3,6 +3,7 @@
         text-align: center;
         color: white;
         font-size: 2.5em;
+        margin-top: 0px;
     }
     h2{
         text-align: center;
@@ -17,17 +18,17 @@
    main{
        max-width: 1000px;
    }
-   .nav-menu{
+   .nav_menu{
        display: flex;
    }
-   .nav-menu li{
+   .nav_menu li{
        display: block;
        flex: 1 1 auto;
    }
-   .nav-menu a{
+   .nav_menu a{
        text-align: center;
    }
-   .nav-menu li:first-child{
+   .nav_menu li:first-child{
        display: none;
    }
 }

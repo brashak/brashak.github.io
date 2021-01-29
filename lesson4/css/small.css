@@ -73,20 +73,23 @@ ul{
     color: white;
   }
     
-    .nav-menu {
+    .nav_menu {
       list-style: none;
       text-align: center;
       padding: 0;
+      overflow: hidden;
+      position: relative;
     }
     
-    .nav-menu li:first-child {
+    .nav_menu li:first-child {
         display: block;
     }
     
-    .nav-menu li {
+    .nav_menu li {
         display: block;
     }
-    .responsive li{
+    .nav_menu
+    .menu_id li{
       display: block;
     }
 
@@ -99,7 +102,7 @@ ul{
 .content{
   text-align: center;
   display: block;
-  border: 1px solid black;
+  border: 2px dashed black;
   margin: 15px auto;
   padding: 15px;
   background-color: #15616D;
@@ -132,11 +135,6 @@ body {
 #outputData{
     text-align: center;
 }
-  
-  @media screen and (max-width: 550px) {
-/* beginning of media query */
-    
-/* end of media query */
-}
 
+  
    
