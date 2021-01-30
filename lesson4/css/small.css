@@ -15,83 +15,14 @@
       width: auto;
       padding-right: 5px;
     }
-ul{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #15616D;
-}
-    nav {
-      background-color: #15616D;
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-      font-size: 1.3em;
-      font-weight: bold;
+
+
+   .responsive li{
+      display: none;
+    }
+
+    h1{
       color: white;
-      padding-top: 3px;
-      padding-bottom: 3px;
-      font-family: 'PT Sans Caption', sans-serif;
-    }
-  
-    nav li {
-      display: inline-block;
-  }
-  nav ul{
-    justify-content: space-around;
-    display: flex;
-  }
-
-  li{
-    float: left;
-    background-color: #15616D;
-  } 
-
-  a{
-    display: block;
-  }
-  li a{
-    text-align: center;
-    display: inline-block;
-  }
-
-  nav a {
-      display: block;
-      padding: 0.75rem;
-      text-align: center;
-      text-decoration: none;
-      color:#FF7D00;
-      font-weight: 700;
-  }
-  
-  nav a:hover {
-    background-color: #F4F1DE;
-    color: #78290f;;
-  }
-  
-  nav a:active {
-    color: white;
-  }
-    
-    .nav_menu {
-      list-style: none;
-      text-align: center;
-      padding: 0;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    .nav_menu li:first-child {
-        display: block;
-    }
-    
-    .nav_menu li {
-        display: block;
-    }
-    .nav_menu
-
-    .responsive li{
-      display: block;
     }
 
   h2{
@@ -117,7 +48,38 @@ main {
   padding: 100px;
 
 }        
-        
+ 
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+  background-color: #15616D;
+  font-family: 'PT Sans Caption', sans-serif;
+  overflow: hidden;
+  padding: 0;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #FF7D00;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #78290f;
+	background-color: white;
+}
+
 body {
    margin: 0 auto;
   }
