@@ -79,7 +79,10 @@ nav {
 	color: #78290f;
 	background-color: white;
 }
-
+.active {
+  color: #78290f;
+  background-color: white;
+}
 body {
    margin: 0 auto;
   }
