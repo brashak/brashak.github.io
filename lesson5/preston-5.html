@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en-us">
+    
+     <head>
+        <title>Weather Site Plan</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Preston">
+        <link rel="stylesheet" href="/lesson4/css/normalize.css">
+        <link rel="stylesheet" href="/lesson4/css/small.css">
+        <link rel="stylesheet" href="/lesson4/css/medium.css">
+        <link rel="stylesheet" href="/lesson4/css/large.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/favicon.ico"/>
+        
+    </head>
+
+<body>
+
+    <header>
+        <img class="logo-box" src="/lesson4/images/weatherlogo.png" alt="weather-logo">
+    
+    <section class="title">
+        <h1>Sun and Snowy Weather</h1>
+        <h3 class="motto">Preparing you for any adventure!</h3>
+     </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href='#'>&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="/lesson4/preston-4.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2 class= "section_head">Preston</h2>
+      <div class="herodiv">
+				<img src="/lesson5/images/sunny.jpg" alt="beautiful_clouds">
+				  <section class="summary">
+   			    <h3>Weather Summary</h3>
+   				  <p>Currently: Cloudy</p>
+   				  <p>High: 70 °F</p>
+   				  <p>Wind Chill: °F</p>
+            <p>Humidity: 40%</p>
+            <p>Wind Speed: 4 mph</p>
+  				</section>
+			</div>
+      <div class="forecastdiv">
+				<h3>5 Day Forecast</h3>
+				<table id="fiveDay">
+          <thead>
+              <tr id="forecastDay">
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>
+                      <img src="/lesson5/images/sunny1.png" alt="Image of Day 1 Forecast">
+                      <br>
+                      <span id="degrees1">80 °F</span>
+                  </td>
+                  <td>
+                      <img src="/lesson5/images/partly_cloudy.png" alt="Image of Day 2 Forecast">
+                      <br>
+                      <span id="degrees2">75 °F</span>
+                  </td>
+                  <td>
+                      <img src="/lesson5/images/rain.png" alt="Image of Day 3 Forecast">
+                      <br>
+                      <span id="degrees3">70 °F</span>
+                  </td>
+                  <td>
+                      <img src="/lesson5/images/partly_cloudy.png" alt="Image of Day 4 Forecast">
+                      <br>
+                      <span id="degrees4">74 °F</span>
+                  </td>
+                  <td>
+                      <img src="/lesson5/images/sunny1.png" alt="Image of Day 5 Forecast">
+                      <br>
+                      <span id="degrees5">75 °F</span>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+			</div>
+      <div class="articlediv">
+        <img id="article_img" src="/lesson5/images/lightning_storm.jpg" alt="Storm Image">
+        <h3>Articles</h3>
+        <p></p>
+
+        It's possible that the rain, snow and high winds caused by the cold front could linger into Monday morning in some areas of East Idaho.--<a href="https://www.idahostatejournal.com/news/local/snow-rain-and-high-winds-in-forecast-for-east-idaho/article_8cd89df7-ff5a-55df-a0e7-b6b79eb7ad56.html">Idaho State Journal</a></p>
+      </div>
+      <div class="contactdiv">
+        <div class="contact_info">
+          <h4>Contact Information</h4>
+          <h3>1234 Storm Avenue</h3>
+          <h3>Boise, Idaho 83707</h3>
+          <h3>986-222-1234</h3>
+          <h3>contact@sunandsnowyweather.com</h3>
+        </div>
+        <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+        <a href="https://www.embedgooglemap.net/en/"></a>
+      </div>
+    </main>
+
+      <footer>
+        <div>
+        &copy; <span id="currentyear"></span> | Brittany Rashak | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <br><span id="currentdate"></span>
+      </footer>
+     
+     <script src="java/menu.js"></script>
+     <script src='/lesson4/java/java/date.js'></script>
+     </body>
+    </html>
