@@ -10,6 +10,19 @@
         color: black;
         font-size: 1.5em;
     }
+    h3{
+        color: black;
+        font-family: 'PT Sans Caption', sans-serif;
+        text-align: center;
+        font-size: 1.5em;
+      }
+      h4{
+        color: white;
+        font-family: 'PT Sans Caption', sans-serif;
+        text-align: left;
+        font-size: 1em;
+      }
+
     .logo-box{
         height: 120px;
         width: auto;
@@ -31,4 +44,67 @@
    .navigation li:first-child{
        display: none;
    }
+
+
+   #pancakes {
+    height: 25%;
 }
+
+.field-img{
+    width: 100%;
+}
+
+.forecast {
+    display: block;
+    text-align: center;
+    color: black;
+    align-items: center;
+}
+
+.forecast-img {
+width: 100%;
+align-items: center;
+}
+
+#weekly-forecast {
+margin: 0 auto;
+width: 750px;
+text-align: center;
+}
+
+
+.article-img {
+    float: right;
+    width: 40%; 
+    margin: 15px;
+}
+
+.summary {
+position: absolute;
+top: 25px;
+left: 50px;
+background: radial-gradient(#F4F1DE, #FF7D00);
+border: 1px solid black;
+padding: 1rem;
+color: black;
+}
+
+.contact-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+color: black;
+background-color: white;
+}
+
+#map {
+grid-column: 1/2;
+grid-row: 1;
+height: 250px;
+}
+
+.contact-info {
+grid-column: 2/3;
+grid-row: 1;
+}
+} 
+

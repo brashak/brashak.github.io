@@ -30,25 +30,33 @@
     font-family: 'PT Sans Caption', sans-serif;
     text-align: center;
   }
-
-.content{
-  text-align: center;
-  display: block;
-  border: 2px dashed black;
-  margin: 15px auto;
-  padding: 15px;
+  h3{
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+  }
+  h4{
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: left;
+  }
+#friday{
+  display: none;
   background-color: #15616D;
-  opacity: 0.8;
   color: white;
-  font-family: 'PT Sans Caption', sans-serif;
-}  
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
 
 main {
   margin: auto;
-  padding: 100px;
 
 }        
- 
+
 nav {
 	margin: 0 auto;
 	max-width: 100%;
@@ -85,8 +93,10 @@ nav {
 }
 body {
    margin: 0 auto;
+   font-family: 'PT Sans Caption', sans-serif;
+   background-color: #FFECD1;
   }
-
+  
   footer {
     background-color: #FF7D00;
     text-align: center;
@@ -100,6 +110,80 @@ body {
 
 #outputData{
     text-align: center;
+}
+
+#friday {
+  display: none;
+  background-color: #15616D;
+  color: white;
+  padding: 10px;
+}
+
+.field-img {
+  width: 100%;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  padding: 15px;
+}
+
+#map {
+  margin: auto;
+  grid-column: 1;
+  text-align: center;
+}
+
+.contact-info {
+  grid-column: 1;
+  margin: auto;
+  text-align: center;
+}
+.contact{ text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+
+}
+.article {
+  display: block;
+  margin: 15px;
+  padding: 15px;
+  background-color: #15616D;
+  color: white;
+}
+
+#article-img {
+  width: 250px;
+  height: 200px;
+  float: right;
+  padding: 5px;
+}
+
+.forecast {
+  display: none;
+}
+
+.summary {
+  position: absolute;
+  top: 0px;
+  font-size: .8em;
+	background: radial-gradient(#F4F1DE, #FF7D00);
+	border: 1px solid #3D405B;
+	padding: 5px;
+  color: black;
+  margin: 10px;
+}
+
+.hero {
+  margin: 15px;
+  position: relative;
 }
 
   
