@@ -41,14 +41,14 @@
     
     .article-img {
         float: right;
-        width: 40%; 
-        margin: 15px;
+        width: 45%; 
+        margin: 10px;
     }
     
     .summary {
     position: absolute;
-    top: 25px;
-    left: 50px;
+    top: 15px;
+    left: 45px;
     background: radial-gradient(#F4F1DE, #FF7D00);
     border: 1px solid black;
     padding: 1rem;
