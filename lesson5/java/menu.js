@@ -15,9 +15,9 @@ document.getElementById("currentDate").innerHTML = dateStr;
 document.getElementById("currentYear").innerHTML = year;
 
 if (day1[day] == 'Friday') {
-    document.getElementById("pancakes").innerHTML = "Friday = Preston Pancakes in the Park!  9:00 a.m. Friday at the city park pavilion.";
-    document.getElementById("pancakes").style.display = "block";
+    document.getElementById("friday").innerHTML = "Friday = Preston Pancakes in the Park!  9:00 a.m. Friday at the city park pavilion.";
+    document.getElementById("friday").style.display = "block";
   }
   else {
-    document.getElementById("pancakes").style.display = "none";
+    document.getElementById("friday").style.display = "none";
   }
