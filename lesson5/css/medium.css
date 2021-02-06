@@ -99,7 +99,7 @@ background-color: white;
 #map {
 grid-column: 1/2;
 grid-row: 1;
-height: 250px;
+height: 200px;
 }
 
 .contact-info {
