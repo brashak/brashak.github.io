@@ -49,7 +49,9 @@
    #friday {
     height: 30%;
 }
-
+#degrees1, #degrees2, #degrees3, #degrees4, #degrees5 {
+    color: black;
+  }
 .field-img{
     width: 100%;
 }
@@ -57,19 +59,20 @@
 .forecast {
     display: block;
     text-align: center;
-    color: black;
+    
     align-items: center;
 }
-
 .forecast-img {
 width: 100%;
 align-items: center;
 }
 
-#weekly-forecast {
+#week-forecast {
 margin: 0 auto;
 width: 750px;
 text-align: center;
+color: #FF7D00;
+    background-color: #15616D;
 }
 
 
