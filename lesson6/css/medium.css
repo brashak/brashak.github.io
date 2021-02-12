@@ -109,5 +109,9 @@ height: 200px;
 grid-column: 2/3;
 grid-row: 1;
 }
+.icon {
+    width: 35px;
+    padding: 10px;
+  }
 } 
 
