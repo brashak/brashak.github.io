@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-us">
+    
+     <head>
+        <title>Weather Site Plan</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Preston Weather Page">
+        <link rel="stylesheet" href="/lesson6/css/normalize.css">
+        <link rel="stylesheet" href="/lesson6/css/small.css">
+        <link rel="stylesheet" href="/lesson6/css/medium.css">
+        <link rel="stylesheet" href="/lesson6/css/large.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/pictures/favicon.ico.png"/>
+        
+    </head>
+
+<body>
+  <div id="friday" style="display: block;"></div>
+    <header>
+        <img class="logo-box" src="/lesson4/images/weatherlogo.png" alt="weather-logo">
+    
+    <section class="title">
+        <h1>Sun and Snowy Weather</h1>
+        <h3 class="motto">Preparing you for any adventure!</h3>
+     </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a class="ham" href='#'>&#9776; Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="/lesson6/preston-6.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2 class= "preston-heading">Preston</h2>
+      <div class="hero">
+				<picture>
+          <source media="(max-width: 800px)" srcset="/pictures/hero-400.jpg">
+            <source media="(max-width: 1001px)" srcset="/pictures/hero-800.jpg">
+            <img class="hero-large" src="/pictures/hero-1200.jpg" alt="sunny day">
+        </picture>
+				  <section class="summary">
+   			    <h3>Weather Summary</h3>
+             <p>Currently: Cloudy</p>
+             <p>High: 
+              <span id="temp">30</span>
+              °F
+            </p>
+             <p>Wind Chill: 
+              <span id="windchill"></span>
+              °F
+            </p>
+            <p>Humidity: 40%</p>
+            <p>Wind Speed: 
+              <span id="windspeed">11</span>
+               mph
+            </p> 
+  				</section>
+			</div>
+      <div class="forecast">
+				<h3>5 Day Forecast</h3>
+				<table id="fiveDay">
+          <thead>
+              <tr id="week-forecast">
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>
+                      <img class="forecast-img" src="/pictures/cloudy.png" alt="day 1 image">
+                      <br>
+                      <span id="degrees1">34 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-img" src="/pictures/cloudy.png" alt="day 2 image">
+                      <br>
+                      <span id="degrees2">36 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-img" src="/pictures/cloudy.png" alt="day 3 image">
+                      <br>
+                      <span id="degrees3">34 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-img" src="/pictures/cloudy.png" alt="day 4 image">
+                      <br>
+                      <span id="degrees4">25 °F</span>
+                  </td>
+                  <td>
+                      <img class="forecast-img" src="/pictures/snowy.png" alt="day 5 image">
+                      <br>
+                      <span id="degrees5">26 °F</span>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+			</div>
+      <div class="article">
+        <img id="article-img" src="/pictures/winter.jpg" alt="Winter">
+        <h4>Snow in forecast for much of East Idaho</h4><p>The National Weather Service has issued a winter weather advisory and special weather alert for much of East Idaho...
+          The forecast includes snow and pockets of blowing snow, snow accumulations of 2 to 6 inches at lower elevations, 
+          and 5 to 12 inches in the mountains. Along with winds gusting 30 to 40 mph at times.
+          Plan on slippery road conditions. The hazardous conditions could impact the morning or evening commute.
+          Slow down and use caution while traveling. The latest road conditions can be obtained by calling 5 1 1.<a href="https://www.idahostatejournal.com/news/local/snow-in-forecast-for-much-of-east-idaho/article_760bbc72-9b04-5307-858a-d535c0e554f7.html">Idaho State Journal</a></p>
+      </div>
+      <div class="contact">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p>30 N 1st E</p>
+          <p>Preston, Idaho 83263</p>
+          <p>986-555-5555</p>
+          <p>contact@sunandsnowyweather.com</p>
+        </div>
+        <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+        <a href="https://www.embedgooglemap.net/en/"></a>
+      </div>
+    </main>
+
+      <footer>
+        <div>
+        &copy; <span id="currentYear"></span> | Brittany Rashak | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <br><span id="currentDate"></span>
+      </footer>
+     
+     <script src="/lesson5/java/menu.js"></script>
+     <script src="/lesson6/java/windchill.js"></script>
+     </body>
+    </html>
