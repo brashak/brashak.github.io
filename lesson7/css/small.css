@@ -107,7 +107,9 @@ body {
     margin: 0 auto;
     max-width: 900px;
 }
-
+.menu-id li {
+  display: block;
+}
 #outputData{
     text-align: center;
 }

@@ -16,7 +16,9 @@
       padding-right: 5px;
     }
 
-
+    .menu-id li {
+      display: block;
+    }
    .responsive li{
       display: none;
     }

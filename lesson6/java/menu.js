@@ -1,7 +1,6 @@
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation');
-
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+function toggleMenu() {
+  document.getElementsByClassName("navigation")[0].classList.toggle("menu-id");
+}
 
 const day1 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const month1 = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
