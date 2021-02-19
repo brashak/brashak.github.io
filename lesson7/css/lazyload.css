@@ -18,10 +18,7 @@ main {
   text-align: center;
 }
 
-img{
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
+
 img[data-src] {
   filter: opacity(50%);
 }
