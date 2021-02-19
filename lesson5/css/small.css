@@ -135,7 +135,9 @@ body {
   grid-column: 1;
   text-align: center;
 }
-
+.menu-id li {
+  display: block;
+}
 .contact-info {
   grid-column: 1;
   margin: auto;
