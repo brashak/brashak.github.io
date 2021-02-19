@@ -1,4 +1,4 @@
-@media only screen  and (min-width : 1200px) {
+@media only screen  and (min-width : 60em) {
     /* Styles */
    h1{
        font-size: 3em;
@@ -76,6 +76,7 @@
     }
     main{
         text-align: center;
+        
     }
     .hero-large{
         display: block;
@@ -88,12 +89,13 @@
         width: 35px;
         padding: 10px;
       }
-    } 
-    
-      /* week 7 */
+           /* week 7 */
     #gallery-images{
         grid-template-columns: 1fr 1fr 1fr;
     }
     #gallery-images figure:hover{
         box-shadow: 0 0 50px black;
     }
+    } 
+    
+ 
