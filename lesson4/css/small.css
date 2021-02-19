@@ -86,7 +86,9 @@ nav {
 body {
    margin: 0 auto;
   }
-
+  .menu-id li {
+    display: block;
+}
   footer {
     background-color: #FF7D00;
     text-align: center;
