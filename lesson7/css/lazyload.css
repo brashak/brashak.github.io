@@ -20,5 +20,5 @@ main {
 
 
 img[data-src] {
-  filter: opacity(50%);
+  filter: blur(.5em);
 }
