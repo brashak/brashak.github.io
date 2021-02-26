@@ -4,7 +4,7 @@ body {
   }
   
   caption {
-    background-color: lightcoral;
+    background-color: #7fb9c2;
     font-size: 1.5em;
     font-weight: bold;
     padding: 8px;
@@ -19,24 +19,24 @@ body {
   }
   
   h1 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'ubuntu', sans-serif;
     font-size: 1.8em;
     text-shadow: 1px 1px 1px darkgray;
   }
   
   tfoot tr td {
-    background-color: lightcoral;
+    background-color: #7fb9c2;
     text-align: center;
     font-size: .7em;
     padding: 5px;
   }
   
   th {
-    background-color: lightpink;
-    color: black;
+    background-color: #628ca6;
+    color: white;
     font-weight: bold;
     padding: 5px;
-    border: solid 1.5px black;
+    border: solid 1.5px #cdcdcd;
   }
   
   td {
@@ -45,24 +45,23 @@ body {
   }
   
   tr:nth-child(odd) {
-    background: white;
+    background: #e7f0ed;
   }
   
   tr:nth-child(even) {
-    background: lightgray;
+    background: #e7ffed;
   }
   
   tr:nth-child(4) td:nth-child(3) {
-    background-color: darkgray;
+    background-color: #628ca6;
     color: white;
   }
   tr:nth-child(5) td:nth-child(1) {
     font-style: italic;
-    font-weight: bold;
   }
   
   #table {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'ubuntu', sans-serif;
     margin: 0 auto;
     text-align: center;
     border: solid 1px #cdcdcd;
