@@ -223,7 +223,7 @@ form label.info input:required {
 }
 
 form label.info input:required:valid {
-  border-left: 7px #81B29A solid;
+  border-left: 7px green solid;
 }
 
 form label.top input, form label.info input, form label.storm select {
