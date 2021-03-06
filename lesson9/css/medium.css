@@ -109,5 +109,20 @@ height: 200px;
 grid-column: 2/3;
 grid-row: 1;
 }
+/*week 9*/
+.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards section:nth-child(odd) img {
+    grid-column: 1;
+  }
+
+  .cards section:nth-child(odd) #details {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
 } 
 
