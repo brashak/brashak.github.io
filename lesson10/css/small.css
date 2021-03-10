@@ -298,6 +298,10 @@ form input.submit-button {
 h4{
   color: black;
 }
+/* lesson 10*/
+.forecast {
+  display: none;
+}
 
 
 
