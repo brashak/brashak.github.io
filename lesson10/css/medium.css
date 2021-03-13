@@ -133,6 +133,7 @@ grid-row: 1;
     margin: 2em;
     font-weight: bold;
     padding: 2px;
+    border: solid 1px black;
   }
   
   .forecast {
@@ -141,13 +142,13 @@ grid-row: 1;
   
   .forecast h3{
     color: black;
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .days {
     padding: 2em;
     border-radius: 5px;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.5em;
     } 
    main{
        margin: 0 auto;

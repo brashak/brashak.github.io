@@ -91,6 +91,7 @@
         gap: 1em;
         margin: 2em;
         font-weight: bold;
+        border: solid 1px black;
       }
       
       .forecast {
@@ -99,13 +100,13 @@
       
       .forecast h3{
         color: black;
-        font-size: 1.5em;
+        font-size: 2em;
       }
       .days {
         padding: 2em;
         border-radius: 5px;
         color: black;
-        font-size: 1.2em;
+        font-size: 1.5em;
         }
   main{
     margin: 0 auto;
