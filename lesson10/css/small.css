@@ -107,6 +107,10 @@ body {
     margin: 0 auto;
     max-width: 900px;
 }
+.icon {
+  width: 35px;
+  padding: 10px;
+}
 
 #outputData{
     text-align: center;
@@ -143,7 +147,8 @@ body {
   margin: auto;
   text-align: center;
 }
-.contact{ text-align: center;
+.contact{ 
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 10px;
@@ -296,14 +301,13 @@ form input.submit-button {
   font-weight: bold;
 }
 h4{
-  color: black;
+  color: white;
+  text-align: center;
 }
-/* lesson 10*/
-.forecast {
-  display: none;
-}
+/* week 10*/
 
 
+ 
 
 
 

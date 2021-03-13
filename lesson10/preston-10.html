@@ -6,10 +6,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Preston Weather Page">
-        <link rel="stylesheet" href="/lesson6/css/normalize.css">
-        <link rel="stylesheet" href="/lesson6/css/small.css">
-        <link rel="stylesheet" href="/lesson6/css/medium.css">
-        <link rel="stylesheet" href="/lesson6/css/large.css">
+        <link rel="stylesheet" href="/lesson10/css/normalize.css">
+        <link rel="stylesheet" href="/lesson10/css/small.css">
+        <link rel="stylesheet" href="/lesson10/css/medium.css">
+        <link rel="stylesheet" href="/lesson10/css/large.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
@@ -46,57 +46,49 @@
 				<picture>
           <source media="(max-width: 800px)" srcset="/lesson10/images/preston-400.jpg">
             <source media="(max-width: 1001px)" srcset="/lesson10/images/preston-800.jpg">
-            <img class="hero-large" src="/lesson10/images/preston-1200.jpg" alt="sunny day">
+            <img class="hero-large" src="/lesson10/images/preston-1000.jpg" alt="sunny day">
         </picture>
-				  <section class="summary">
-   			    <h3>Weather Summary</h3>
-             <p>Currently: Cloudy</p>
-             <p>High: 
-              <span id="temp"></span>
-              °F
-            </p>
-             <p>Wind Chill: 
-              <span id="windchill"></span>
-              °F
-            </p>
-            <p>Humidity: 
-                <span id="humidity"></span>
-              %
-            </p>
-            <p>Wind Speed: 
-              <span id="windspeed"></span>
-               mph
-            </p> 
-  				</section>
-			</div>
-            <h3 id="forecastTitle">5 Day Forecast</h3>
-            <div class="forecast">
-              <div class="forecasts">
-                <div id="day1"></div>
-                <img src="#" alt="" id="img1">
-                <div id="temp1"></div>
-              </div>
-              <div class="forecasts">
-                <div id="day2"></div>
-                <img src="#" alt="" id="img2">
-                <div id="temp2"></div>
-              </div>
-              <div class="forecasts">
-                <div id="day3"></div>
-                <img src="#" alt="" id="img3">
-                <div id="temp3"></div>
-              </div>
-              <div class="forecasts">
-                <div id="day4"></div>
-                <img src="#" alt="" id="img4">
-                <div id="temp4"></div>
-              </div>
-              <div class="forecasts">
-                <div id="day5"></div>
-                <img src="#" alt="" id="img5">
-                <div id="temp5"></div>
-              </div>
-                  </div>
+        <section class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: <span id="currently"></span></p>
+          <p>High: <span id="temp"></span></p>
+          <p>Wind Chill: <span id="windchill"></span>°F</p>
+          <p>Humidity: <span id="humidity"></span></p>
+          <p>Wind Speed: <span id="windspeed">10</span>mph</p>
+        </section>
+      </div>
+        
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <div id="weekly-forecast">
+
+        <div class="forecasts">
+          <div id="day1"></div>
+          <img src="#" alt="" id="img1">
+          <div id="temp1"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day2"></div>
+          <img src="#" alt="" id="img2">
+          <div id="temp2"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day3"></div>
+          <img src="#" alt="" id="img3">
+          <div id="temp3"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day4"></div>
+          <img src="#" alt="" id="img4">
+          <div id="temp4"></div>
+        </div>
+        <div class="forecasts">
+          <div id="day5"></div>
+          <img src="#" alt="" id="img5">
+          <div id="temp5"></div>
+        </div>
+      </div>
+
       <div class="article">
         <img id="article-img" src="/pictures/winter.jpg" alt="Winter">
         <h4>Snow in forecast for much of East Idaho</h4><p>The National Weather Service has issued a winter weather advisory and special weather alert for much of East Idaho...
@@ -105,6 +97,8 @@
           Plan on slippery road conditions. The hazardous conditions could impact the morning or evening commute.
           Slow down and use caution while traveling. The latest road conditions can be obtained by calling 5 1 1.<a href="https://www.idahostatejournal.com/news/local/snow-in-forecast-for-much-of-east-idaho/article_760bbc72-9b04-5307-858a-d535c0e554f7.html">Idaho State Journal</a></p>
       </div>
+      
+      
       <div class="contact">
         <div class="contact-info">
           <h3>Contact Information</h3>
@@ -121,7 +115,6 @@
         <a href="https://www.embedgooglemap.net/en/"></a>
       </div>
     </main>
-
       <footer>
         <div>
         &copy; <span id="currentYear"></span> | Brittany Rashak | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>

@@ -20,25 +20,6 @@
         width: 100%;
     }
   
-    .forecast {
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .forecast-img {
-    width: 100%;
-    align-items: center;
-   
-    }
-    
-    #week-forecast {
-    margin: 0 auto;
-    width: 750px;
-    text-align: center;
-    color: #FF7D00;
-    background-color: #15616D;
-    }
     
     
     .article-img {
@@ -101,4 +82,11 @@
         color: black;
         text-align: center;
       }
+      /*week 10*/
+      .forecast {
+        display: block;
+        text-align: center;
+        
+        align-items: center;
+    }
 }  
