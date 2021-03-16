@@ -5,7 +5,6 @@
         <title>Weather Site Plan</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Brittany Rashak">
         <meta name="description" content="Preston Weather Page">
         <link rel="stylesheet" href="/lesson10/css/normalize.css">
         <link rel="stylesheet" href="/lesson10/css/small.css">
@@ -33,16 +32,16 @@
       <ul class="navigation">
         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
         <li><a href="/lesson11/lesson9/index.html">Home</a></li>
-        <li><a href="/lesson11/preston-10.html">Preston</a></li>
+        <li><a class="active" href="/lesson11/preston-10.html">Preston</a></li>
         <li><a href="/lesson11/soda-springs-11.html">Soda Springs</a></li>
-        <li><a class="active" href="/lesson11/fish-haven-11.html">Fish Haven</a></li>
+        <li><a href="/lesson11/fish-haven-11.html">Fish Haven</a></li>
         <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
         <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
       </ul>
     </nav>
 
     <main>
-      <h2 class= "fishhaven-heading">Fish Haven</h2>
+      <h2 class= "preston-heading">Preston</h2>
       <div class="hero">
 				<picture>
           <source media="(max-width: 800px)" srcset="/lesson10/images/preston-400.jpg">
@@ -91,14 +90,12 @@
       </div>
     </div>
       <div class="article">
-        <img id="article-img" src="/lesson11/images/fishhaven-news.jpg" alt="Fish">
-        <h4>Not going swimmingly: Aquaculture (mostly) recovering slower than rest of Magic Valley ag</h4>
-        <p>The trout swarm in a wriggling ball for a second, like a flock of underwater starlings. 
-            A second later they scatter. Every few moments you hear a splash when one of them leaps above the 
-            water to gobble up a pellet of food floating on the water’s surface.
-            It’s a mesmerizing but common scene on aquaculture farms throughout the Magic Valley. 
-            These rainbow trout at Fish Breeders of Idaho in Hagerman look no different than the thousands 
-            of others living in hundreds of spring-fed raceways across the valley.<a href="https://www.kpvi.com/interests/not-going-swimmingly-aquaculture-mostly-recovering-slower-than-rest-of-magic-valley-ag/article_bcbad631-537f-594f-a4d9-5dca328f5b8c.html">KPVI</a></p>
+        <img id="article-img" src="/pictures/winter.jpg" alt="Winter">
+        <h4>Snow in forecast for much of East Idaho</h4><p>The National Weather Service has issued a winter weather advisory and special weather alert for much of East Idaho...
+          The forecast includes snow and pockets of blowing snow, snow accumulations of 2 to 6 inches at lower elevations, 
+          and 5 to 12 inches in the mountains. Along with winds gusting 30 to 40 mph at times.
+          Plan on slippery road conditions. The hazardous conditions could impact the morning or evening commute.
+          Slow down and use caution while traveling. The latest road conditions can be obtained by calling 5 1 1.<a href="https://www.idahostatejournal.com/news/local/snow-in-forecast-for-much-of-east-idaho/article_760bbc72-9b04-5307-858a-d535c0e554f7.html">Idaho State Journal</a></p>
       </div>
       
       
@@ -125,7 +122,7 @@
       <br><span id="currentDate"></span>
       </footer>
      
-     <script src="/lesson11/java/fishhaven.js"></script>
+     <script src="/lesson10/java/lesson10.js"></script>
      <script src="/lesson6/java/windchill.js"></script>
      </body>
     </html>
