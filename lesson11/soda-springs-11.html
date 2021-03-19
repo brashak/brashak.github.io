@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Brittany Rashak">
         <meta name="description" content="Soda Springs">
-        <link rel="stylesheet" href="/lesson10/css/normalize.css">
-        <link rel="stylesheet" href="/lesson10/css/small.css">
-        <link rel="stylesheet" href="/lesson10/css/medium.css">
-        <link rel="stylesheet" href="/lesson10/css/large.css">
+        <link rel="stylesheet" href="/lesson11/css/normalize.css">
+        <link rel="stylesheet" href="/lesson11/css/small.css">
+        <link rel="stylesheet" href="/lesson11/css/medium.css">
+        <link rel="stylesheet" href="/lesson11/css/large.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
     </nav>
 
     <main>
-      <h2 class= "sodadprings-heading">Soda Springs</h2>
+      <h2 class= "sodasprings-heading">Soda Springs</h2>
       <div class="hero">
 				<picture>
           <source media="(max-width: 800px)" srcset="/lesson11/images/sodasprings-400.jpg">
@@ -52,10 +52,10 @@
         <section class="summary">
           <h3>Weather Summary</h3>
           <p>Currently: <span id="currently"></span></p>
-          <p>High: <span id="temp"></span></p>
-          <p>Wind Chill: <span id="windchill"></span>°F</p>
-          <p>Humidity: <span id="humidity"></span></p>
-          <p>Wind Speed: <span id="windspeed">10</span>mph</p>
+          <p>High: <span id="temp"></span>°F</p>
+          <p>Wind Chill: <span id="windchill"></span></p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+          <p>Wind Speed: <span id="windspeed"></span>mph</p>
         </section>
       </div>
         
@@ -90,11 +90,19 @@
         </div>
       </div>
     </div>
+
+    <section class="town-events">
+      <h3>Upcoming Town Events</h3>
+      <hr>
+    </section>
+    
       <div class="article">
-        <img id="article-img" src="/lesson11/images/fishhaven-news.jpg" alt="Soda">
-        <h4>Farmer Turned Politician: The Journey of Mark Harris</h4>
-        <p>Mark Harris is an Idaho State Senator and a rancher from Soda Springs. 
-            Idaho Farm Bureau takes us on his journey from farmer to politician. .<a href="https://www.rfdtv.com/story/43478384/farmer-turned-politician-the-journey-of-mark-harris">RFDTV</a></p>
+        <img id="article-img" src="/lesson11/images/sodasprings-news.jpg" alt="Soda">
+        <h4>From Beer Springs to Soda Springs: How this tiny Idaho town became known for its carbonated water</h4>
+        <p>t was a pit stop for Oregon Trail pioneers and fur traders while traveling through Eastern Idaho. Often referred to as the 'Oregon Trail Oasis,'
+           it's now known as Soda Springs, a town of just over 3,000 people in Caribou County. As one of the main water sites along the Oregon Trail, travelers would
+            often stop to try the water at the sulfurous springs, which bubbles like boiling water on the surface and emits a destructive, rotten egg smell 
+            when the wind is blowing just right.<a href="https://www.ktvb.com/article/news/local/208/soda-springs-get-to-know-idaho-beer-springs-oregon-trail-watering-hole/277-4e4090c2-d7e0-4e7b-a499-8f3b148e62cd"> KTVB</a></p>
       </div>
       
       
@@ -121,7 +129,7 @@
       <br><span id="currentDate"></span>
       </footer>
      
-     <script src="/lesson11/java/fishhaven.js"></script>
-     <script src="/lesson6/java/windchill.js"></script>
+      <script src="/lesson11/java/script.js"></script> 
+     <script src="/lesson11/java/sodasprings.js"></script>
      </body>
     </html>

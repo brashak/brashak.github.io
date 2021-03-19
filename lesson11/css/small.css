@@ -1,0 +1,323 @@
+
+  header{
+        background-color: #FF7D00;
+        align-items: center;
+        font-family: 'Rubik', sans-serif; 
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+      
+  .logo-box {
+      height: 100px;
+      width: auto;
+      padding-right: 5px;
+    }
+
+
+   .responsive li{
+      display: none;
+    }
+
+    h1{
+      color: white;
+    }
+
+  h2{
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+  }
+  h3{
+    color: black;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+  }
+  h4{
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: left;
+  }
+#friday{
+  display: none;
+  background-color: #15616D;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+
+main {
+  margin: 0 auto;
+
+}        
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+  background-color: #15616D;
+  font-family: 'PT Sans Caption', sans-serif;
+  overflow: hidden;
+  padding: 0;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #FF7D00;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #78290f;
+	background-color: white;
+}
+.active {
+  color: #78290f;
+  background-color: white;
+}
+body {
+   margin: 0 auto;
+   font-family: 'PT Sans Caption', sans-serif;
+   background-color: #FFECD1;
+  }
+  
+  footer {
+    background-color: #FF7D00;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    margin-top: 1em;
+    font-family: 'Dosis', sans-serif;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.icon {
+  width: 35px;
+  padding: 10px;
+}
+
+#outputData{
+    text-align: center;
+}
+
+#friday {
+  display: none;
+  background-color: #FF7D00;
+  color: white;
+  padding: 10px;
+}
+
+.field-img {
+  width: 100%;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 15px;
+  padding: 15px;
+}
+
+#map {
+  margin: auto;
+  grid-column: 1;
+  text-align: center;
+}
+.menu-id li {
+  display: block;
+}
+.contact-info {
+  grid-column: 1;
+  margin: auto;
+  text-align: center;
+}
+.contact{ 
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+
+}
+.article {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #15616D;
+  color: white;
+}
+
+#article-img {
+  width: 250px;
+  height: 200px;
+  float: right;
+  padding: 5px;
+}
+
+p a:link{
+  color: #FF7D00;
+}
+.forecast {
+  display: none;
+}
+
+.summary {
+  position: absolute;
+  top: 0px;
+  font-size: .8em;
+	background: radial-gradient(#F4F1DE, #FF7D00);
+	border: 1px solid black;
+	padding: 5px;
+  color: black;
+  margin: 10px;
+}
+
+.hero {
+  margin: 10px;
+  position: relative;
+}
+/* week 8 */
+.thanks {
+  padding: 100px;
+  margin: 20px;
+  border: 2px solid black;
+}
+
+form {
+  color: black;
+  font-size: 1.1em;
+}
+
+form fieldset {
+  margin: 3em;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 2em;
+}
+
+form legend {
+  color: #78290f;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+form label.top, form label.info, form div {
+  display: block;
+  padding-bottom: 15px;
+}
+
+form label.info input:required {
+  border-left: 7px red solid;
+ 
+}
+
+form label.info input:required:valid {
+  border-left: 7px green solid;
+}
+
+form label.top input, form label.info input, form label.storm select {
+  display: block;
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 0.5em;
+  color: #78290f;
+  width: 100%;
+  background-color: white;
+  max-width: 800px;
+}
+
+form label.radios {
+  display: block;
+  padding-top: 1em;
+}
+
+form label.storm {
+  display: block;
+  padding: .75rem 0;
+  
+}
+
+form input.submit-button {
+  border: none;
+  background-color: #15616D;
+  color: #FF7D00;
+  font-size: 1.3em;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0 2em 5%;
+  width: 96%;
+  max-width: 15em;
+}
+
+/* week 9*/
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+}
+
+.cards section {
+  margin: auto;
+  border: 2px solid #78290f;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.cards section img {
+  border-radius: 8px;
+  width: 80%;
+  height: auto;
+  padding: 5px;
+  filter: blur(0em);
+  transition: filter 1s;
+}
+
+#wireframes {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#homeTitle p{
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+h4{
+  color: white;
+  text-align: center;
+}
+/*week 11*/
+@media only screen and (max-width: 600px ){
+  .town-events{
+    visibility: hidden;
+  }
+}
+
+
+ 
+
+
+
+  
+   

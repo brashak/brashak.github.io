@@ -1,5 +1,5 @@
 // Weather Summary
-const apiURL_weather = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=b1c4009595630e2651d3712160a3c1f6&units=imperial';
+const apiURL_weather = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=b1c4009595630e2651d3712160a3c1f6&units=imperial';
 
 fetch(apiURL_weather)
     .then(function (response) {
@@ -31,7 +31,7 @@ fetch(apiURL_weather)
 
 // 5 day forecast
 
-const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=da923bb8ec61575a7dfe5e3106bb43c1"
+const apiURL_forecast = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=da923bb8ec61575a7dfe5e3106bb43c1"
 
 fetch(apiURL_forecast)
    .then(response => response.json())
@@ -65,7 +65,7 @@ fetch(requestURL)
  .then(function (jsonObject) {
    const towns = jsonObject['towns'];
    for (let i = 0; i < towns.length; i++ ) {
-       if (towns[i].name == 'Soda Springs') {
+       if (towns[i].name == 'Preston') {
         let events = towns[i].events;
         for (let i=0; i < events.length; i++) {
         let event = document.createElement('p');
