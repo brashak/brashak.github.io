@@ -60,4 +60,14 @@ fetch(apiURL)
       document.getElementById('day'+(day+1)).textContent = weekdays[x.getDay()];
       day++;	  
       });
-  }); 
+   
+  //windchill
+  let output = "N/A"
+  if (temp <= 50 && windspeed > 3) {
+      output = Math.round(35.74 + 0.6215 * temp - 35.75 * windspeed ** 0.16 + 0.4275 * temp * windspeed ** 0.16);
+      output += " \xB0F";
+  }
+
+  document.getElementById("windchill").textContent = output;
+
+});
