@@ -313,7 +313,9 @@ h4{
     visibility: hidden;
   }
 }
-
+ .article h4{
+   color: white;
+ }
 
  
 
