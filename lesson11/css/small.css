@@ -196,12 +196,15 @@ p a:link{
   position: relative;
 }
 /* week 7*/
-/* week 7*/
 #gallery-images {
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
   padding: 15px;
+}
+
+#gallery-images figure:hover{
+  box-shadow: 0 0 50px black;
 }
 
 #gallery-images figure {
