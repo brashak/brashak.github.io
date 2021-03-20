@@ -109,6 +109,13 @@ height: 200px;
 grid-column: 2/3;
 grid-row: 1;
 }
+/*week 7*/
+#gallery-images{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#gallery-images figure:hover{
+  box-shadow: 0 0 50px black;
+}
 /*week 9*/
 .cards section {
     display: grid;
