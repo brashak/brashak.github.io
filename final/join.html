@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en-us">
+    
+     <head>
+        <title>Heber City Chamber of Commerce</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+        <meta name="author" content="Brittany Rashak">
+        <meta name="description" content="Chamber of Commerce-Join">
+        <link rel="stylesheet" href="/final/css/normalize.css">
+        <link rel="stylesheet" href="/final/css/small.css">
+        <link rel="stylesheet" href="/final/css/medium.css">
+        <link rel="stylesheet" href="/final/css/large.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/lesson11/images/favicon.ico.png"/>
+        
+    </head>
+
+<body>
+    <header class="grid-container-header">
+    <img class="logo-box" src="images/logo.png" alt="heber-logo">
+    <section class="title">
+        <h1>Heber City</h1>
+        <h3>Chamber of Commerce</h3>
+        <p class="purpose">Our mission is to enhance the prosperity<br>
+        and quality of life for businesses and residents in the Heber Valley area</p>
+     </section>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a class="#" href="/final/home.html">Home</a></li>
+        <li><a href="#">City</a></li>
+        <li><a class="active" href="/final/join.html">Join</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <h2>Would you like to become a member?</h2>
+     <form method="GET" action="/final/confirmation.html">
+        <fieldset>
+          <legend>Your Information</legend>
+            <label class="info">
+            *First Name: <input type="text" name="firstname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+            </label>
+            <label class="info">
+            *Last Name: <input type="text" name="lastname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+            </label>
+            <label class="info">
+            Title: <input type="text" name="title" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+            </label>
+            <label class="info">
+            Email: <input type="email" name="email" placeholder="ex:123@gmail.com" required>
+            </label>  
+            <label class="info">
+            Cell Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="555-555-5555">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Business Information</legend>
+            <label class="info">
+                Business Name: <input type="text" name="businessname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                </label>
+                <label class="info">
+                Business Address: <input type="address" name="businessaddress"  pattern="^[a-zA-Z\s\-\.]{3,}$">
+                </label>
+                <label class="info">
+                Business Website: <input type="website" name="website" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+                </label>
+                <label class="top">Business Description: 
+                <textarea name="comments" id="comments"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Level</legend>
+              <label class="membership">
+              Membership Type: <input list="membership_type" name="membsership_type">
+                <datalist id="membership_type">
+                  <option value="Non-Profit ($100)"></option>
+                  <option value="Bronze ($200)"></option>
+                  <option value="Silver ($400)"></option>
+                  <option value="Gold ($1000)"></option>
+                </datalist>
+              </label>
+              </fieldset>
+              <input class="submit-button" type="submit" value="Submit">
+              </form>
+        
+    </main>
+
+      <footer>
+        <div>
+        &copy; <span id="currentYear"></span> | Brittany Rashak | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+      </div>
+      <br><span id="currentDate"></span>
+      </footer>
+     
+      <script src="/final/js/slideshow.js"></script>
+     </body>
+    </html>
