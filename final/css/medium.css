@@ -1,4 +1,4 @@
-/* home paage */
+/* home page */
 @media only screen and (min-width: 768px){
     /* menu */
     .navigation{
@@ -122,11 +122,12 @@
     grid-column: 2/3;
     grid-row: 1;
     }
+
+    
+  
 /* directory page*/
 .cards {
     grid-template-columns: 1fr 1fr;
  }
- img {
-    width: 75%;
- }
+ 
 }

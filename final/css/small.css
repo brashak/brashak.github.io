@@ -57,6 +57,7 @@ h3{
     padding: 5px;
     margin-left: 30px;
     margin-top: 30px;
+    width: 80%;
 }
 nav {
 	margin: 0 auto;
@@ -111,16 +112,19 @@ p{
     background-color: white;
     border-style: solid;
     
+    
 }
 .left{
     background-color: white;
     border-style: solid;
+    
 }
 .right{
     background-color: white;
     border-style: solid;
+    
 }
-.button {
+button {
     background-color: #EAC288;
     border: none;
     color: #435861;
@@ -164,6 +168,11 @@ p{
     grid-column: 1/2;
     grid-row: 1;
     height: 250px;
+    }
+
+    #weekly-forecast {
+      font-family: 'sansita', sans-serif;
+      padding: 2px;
     }
 
 /* join page*/
@@ -244,18 +253,20 @@ form {
 
   
   img {
-    width: 50%;
+    width: 40%;
     margin: 5px auto 0 auto;
     display: block;
-    box-shadow: 0px 0px 10px 5px #979797;
   }
   
   main {
-    box-shadow: 0px 0px 10px 5px #979797;
     padding: 15px;
     margin: 0 auto;
   }
-  
+  main img{
+      box-shadow: 0px 0px 10px 5px #979797;
+      padding: 5px;
+      margin-top: 5px;
+  }
   section {
     border: solid 2px #4d774d;
     padding-bottom: 12px;
@@ -273,5 +284,48 @@ form {
     grid-template-columns: 1fr; 
     gap: 5px; 
   }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-family: 'sansita', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  /* contact page*/
+  .contact-us, .comments, .board{
+      text-align: center;
+      border: solid 2px #4d774d;
+      background-color: white;
+      margin-bottom: 10px;
+      width: auto;
+  }
+  .board{
+      position: relative;
+      text-align: center;
+      border: solid 2px #4d774d;
+      background-color: white;
+      align-items: center;
+      font-family: 'sansita', sans-serif;
+      font-size: 1.5em;
+      padding: 3px;
+      width: auto;
+  }
+
+  
+
+  /* city page*/
+  
+  
 
 

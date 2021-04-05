@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="/lesson11/images/favicon.ico.png"/>
         
     </head>
@@ -33,15 +34,20 @@
         <nav>
           <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a class="#" href="/final/home.html">Home</a></li>
-            <li><a href="#">City</a></li>
-            <li><a href="#" href="/final/join.html">Join</a></li>
+            <li><a href="/final/home.html">Home</a></li>
+            <li><a href="/final/city.html">Heber City</a></li>
+            <li><a href="/final/join.html">Join</a></li>
             <li><a class="active" href="/final/directory.html">Directory</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/final/contact.html">Contact</a></li>
           </ul>
         </nav>
    <main>
      <h2>Member Directory</h1>
+      <div id="btnContainer">
+        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+      </div>
+
      <div class="cards"></div>
     </main>
 
@@ -53,5 +59,6 @@
       </footer>
      
       <script src="/final/js/directory.js"></script>
+      <script src="/final/js/java.js"></script>
      </body>
     </html>

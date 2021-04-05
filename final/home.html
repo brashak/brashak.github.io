@@ -34,10 +34,10 @@
       <ul class="navigation">
         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
         <li><a class="active" href="/final/home.html">Home</a></li>
-        <li><a href="#">City</a></li>
+        <li><a href="/final/city.html">Heber City</a></li>
         <li><a href="/final/join.html">Join</a></li>
         <li><a href="/final/directory.html">Directory</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/final/contact.html">Contact</a></li>
       </ul>
     </nav>
 
@@ -69,9 +69,31 @@
             <div class="column left">
               <h2>Current Weather</h2>
               <section class="summary">
-                <p>Currently: <span id="currently"></span></p>
+                <p>Currently: <span id="temp"></span>°F</p>
                 <p>Condition: <span id="condition"></span></p>
                 <p>Humidity: <span id="humidity"></span>%</p>
+              </section>
+              <br>
+              <section>
+                <div class="forecast">
+                  <h3>3 Day Forecast</h3>
+                  <div id="weekly-forecast">
+          
+                  <div class="forecasts">
+                    <div id="day1"></div>
+                    <img src="#" alt="" id="img1">
+                    <div id="temp1"></div>
+                  </div>
+                  <div class="forecasts">
+                    <div id="day2"></div>
+                    <img src="#" alt="" id="img2">
+                    <div id="temp2"></div>
+                  </div>
+                  <div class="forecasts">
+                    <div id="day3"></div>
+                    <img src="#" alt="" id="img3">
+                    <div id="temp3"></div>
+                  </div>
               </section>
               
             </div>
@@ -98,9 +120,10 @@
               <p>April 10: Mozzarella Cheese Making Class</p><br>
               <p>April 20: Heber Valley Chamber of Commerce Luncheon</p>
             </section>
+            <br>
             <section id="action">
                 <h2>Become a Member</h2>
-                <button class="button" a href="/final/join.html" class="button">Join now!</a>
+                <a href="/final/join.html"><button>Join Now</button></a>
                 
             </section>
             </div>
@@ -128,5 +151,6 @@
       </footer>
      
       <script src="/final/js/slideshow.js"></script>
+      <script src="/final/js/java.js"></script>
      </body>
     </html>
