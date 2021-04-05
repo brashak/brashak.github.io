@@ -94,10 +94,10 @@
     padding: 10px;
   }
   .left, .right {
-    width: 25%;
+    width: 33%;
   }
   .middle {
-    width: 50%;
+    width: 33%;
   }
   .row:after {
     content: "";
@@ -105,7 +105,7 @@
     clear: both;
   }
 
-  .contact-grid {
+  .contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: black;
@@ -129,5 +129,32 @@
 .cards {
     grid-template-columns: 1fr 1fr;
  }
- 
+/*city page*/
+.heber-history{
+  text-align: center;
+  padding: 5px;
+}
+.gallery-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+.popular-events{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  margin-left: 100px;
+  width:100%;
+}
+#first-event, #second-event, #third-event{
+  width: 33%;
+ }
+
+.popular img{
+  width:auto;
+  margin: auto;
+}
+
 }

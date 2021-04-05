@@ -60,34 +60,24 @@
     padding: 10px;
   }
   .left, .right {
-    width: 25%;
+    width: 33%;
   }
   .middle {
-    width: 50%;
+    width: 33%;
   }
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: black;
-    background-color: white;
-    align-items: center;
-    }
+  
     
     #map {
     grid-column: 1/2;
     grid-row: 1;
     height: 250px;
     }
-    
-    .contact-info {
-    grid-column: 2/3;
-    grid-row: 1;
-    }
+  
 
     
   
@@ -98,4 +88,27 @@
  
 /*join page*/
 
+/*city*/
+.heber-history{
+  text-align: center;
+  padding: 5px;
+}
+.gallery-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+.popular-events{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+
+#first-event, #second-event, #third-event{
+ width: 33%;
+}
+.popular img{
+  width:auto;
+  margin: auto;
+}
 }

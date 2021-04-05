@@ -1,4 +1,4 @@
-const requestURL = 'https://brashak.github.io/directory.json';
+const requestURL = 'https://brashak.github.io/directory/directory.json';
 
 fetch(requestURL)
 .then(function (response) {

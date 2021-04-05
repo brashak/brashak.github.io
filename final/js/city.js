@@ -1,3 +1,4 @@
+//city gallery
 /* banner images*/
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -14,7 +15,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides-1");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -27,5 +28,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-
-
