@@ -3,10 +3,17 @@
     .slideshow-container{
         display: none;
     }
+
+    .menu-id{
+      display: block;
+    
+    }
 }
 main{
+  width: 100%;
     margin: 0 auto;
     align-content: center;
+    
 }
 header{
     background-color: #4d774d;
@@ -17,7 +24,7 @@ header{
     flex-direction: column;
 }
 body{
-    background-color: #E7E3DD;
+    background-image: linear-gradient(#e7e3dd, #435861);
 }
 footer{
     background-color: #4d774d;
@@ -147,12 +154,11 @@ button {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 0 auto;
     padding: 10px;
     border: 1px solid #4d774d;
     background-color: white;
-    max-width: auto;
+    width: 80%;
   }
   #map {
     grid-column: 1;
@@ -186,7 +192,9 @@ button {
       font-weight: bold;
       padding: 5px;
     }
-
+.events, .local, .forecast, .summary, .action{
+  background-color: white;
+}
 /* join page*/
 main h2{
     text-align: center;
@@ -334,26 +342,75 @@ form {
   }
 
   /* city page*/
-
+  #more {
+    display: none;
+  }
   .city-column{
     display: grid;
     grid-template-columns: auto auto;
     padding: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+.city-gallery{
+  margin-top: 10px;
 }
   #events{
     text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
   }
 
-  .history-demographic, .current-demographic{
+  .demographic{
     text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
   }
-   #demo{
+
+   .popular{
+     width: 100%;
+     margin: 0 auto;
+     background-color: white;
+   }
+
+   .popular p{
+     text-align: justify;
+     align-items: center;
+     padding: 30px;
+   }
+
+   tfoot tr td {
+    background-color: white;
+    text-align: center;
+    font-size: .7em;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #EAC288;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 1.5px black;
+  }
+  
+  td {
+    border: solid 1.5px black;
+    padding: 5px;
+    background-color: white;
+  }
+  #demo{
       font-family: 'sansita', sans-serif;
       margin: 0 auto;
       text-align: center;
-      border: solid 1px #435861;
+      border: solid 1px black;
       border-collapse: collapse;
-   }
+      margin-top: 10px;
+  }
+  
+  
   
 
 
