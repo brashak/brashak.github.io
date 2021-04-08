@@ -1,4 +1,4 @@
-const requestURL = 'https://brashak.github.io/directory/directory.json';
+const requestURL = 'https://brashak.github.io/final/directory/directory.json';
 
 fetch(requestURL)
 .then(function (response) {
@@ -31,6 +31,26 @@ fetch(requestURL)
       document.querySelector('div.cards').appendChild(card);
    }
 });
+
+// Get the elements with class="column"
+var elements = document.getElementsByClassName(".cards");
+
+// Declare a loop variable
+var i;
+
+// List View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "50%";
+  }
+}
 
 
 

@@ -22,6 +22,7 @@ header{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    width: 100%;
 }
 body{
     background-image: linear-gradient(#e7e3dd, #435861);
@@ -32,6 +33,7 @@ footer{
     font-family: 'sansita', sans-serif;
     text-align: center;
     font-size: 1em;
+    width: 100%;
 }
 .grid-container-header{
     display: grid;
@@ -327,14 +329,25 @@ form {
   }
 
   /* contact page*/
-  .contact-us, .comments, .board{
+  .contact-us, .board{
       text-align: center;
       border: solid 2px #4d774d;
       background-color: white;
       margin-bottom: 10px;
-      width: auto;
+      width: 80%;
+      padding: 10px;
+      margin: 0 auto;
+  }
+  .comments{
+    background-color: white;
+    border: solid 2px #4d774d;
+    width: 80%;
+    margin: 0 auto;
   }
   .board{
+    padding: 20px;
+  }
+  #board{
       position: relative;
       text-align: center;
       border: solid 2px #4d774d;
@@ -343,12 +356,16 @@ form {
       font-family: 'sansita', sans-serif;
       font-size: 1.5em;
       padding: 3px;
-      width: auto;
+      width: 70%;
+      margin: 0 auto;
   }
 
   /* city page*/
   #more {
     display: none;
+  }
+  .heber-history{
+    text-align: justify;
   }
   .city-column{
     display: grid;
@@ -413,6 +430,7 @@ form {
       border: solid 1px black;
       border-collapse: collapse;
       margin-top: 10px;
+      overflow: hidden;
   }
   
   

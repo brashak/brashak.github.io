@@ -2,9 +2,9 @@
 @media only screen  and (min-width : 1200px) {
 /* slideshow banner */
 .slideshow-container {
-    max-width: 1925px;
+    width: 100%;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
   }
   .mySlides {
     display: none;
@@ -90,7 +90,6 @@
 
 /*city*/
 .heber-history{
-  text-align: center;
   padding: 5px;
 }
 .gallery-container {

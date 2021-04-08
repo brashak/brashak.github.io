@@ -18,9 +18,9 @@
 
     /* slideshow images */
     .slideshow-container {
-    max-width: 1925px;
+    max-width: 100%;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
   }
   .mySlides {
     display: none;
@@ -114,7 +114,6 @@
  
 /*city page*/
 .heber-history{
-  text-align: center;
   padding: 5px;
 }
 .gallery-container {
