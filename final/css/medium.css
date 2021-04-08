@@ -67,23 +67,7 @@
   .active, .dot:hover {
     background-color: #EAC288;
   }
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
   
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-
   
   /* grid for body */
   * {
@@ -126,9 +110,8 @@
     
   
 /* directory page*/
-.cards {
-    grid-template-columns: 1fr 1fr;
- }
+
+ 
 /*city page*/
 .heber-history{
   text-align: center;
@@ -167,5 +150,4 @@
   width:auto;
   margin: auto;
 }
-
 }

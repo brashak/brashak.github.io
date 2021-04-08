@@ -213,7 +213,7 @@ form {
   }
   
   form legend {
-    color: #435861;
+    color: black;
     font-weight: bold;
     font-size: 1.2em;
   }
@@ -268,7 +268,12 @@ form {
   fieldset{
       font-weight: bold;
   }
-
+.member-key{
+  background-color: white;
+  border: solid 2px #4d774d;
+  width: 50%;
+  margin-top: 10px;
+}
 /*directory page*/
 
   img {
@@ -300,7 +305,7 @@ form {
   
   .cards {
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     gap: 5px; 
   }
   .btn {
