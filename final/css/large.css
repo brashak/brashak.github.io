@@ -82,12 +82,15 @@
     
   
 /* directory page*/
-.card-grid .cards {
+.cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
  }
- .card-list .cards{
-   grid-template-columns: 1fr;
- }
+.phonenumber, .email, a{
+  text-align: center;
+}
 
 /*join page*/
 
