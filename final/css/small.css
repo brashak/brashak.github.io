@@ -306,7 +306,13 @@ form {
     font-weight: bold;
     font-family: 'sansita', sans-serif;
   }
-  
+  section a{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'sansita', sans-serif;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 

@@ -13,7 +13,7 @@ fetch(requestURL)
       let image = document.createElement('img');
       let  phonenumber = document.createElement('div');
       let  email = document.createElement('div');
-      let website= document.createElement('div');
+      let website= document.createElement('a');
       h2.textContent = directory[i].businessname;
       phonenumber.setAttribute('class', 'phonenumber')
       phonenumber.textContent = 'Phone Number: ' + directory[i].phonenumber;
@@ -27,8 +27,9 @@ fetch(requestURL)
       card.appendChild(h2);
       card.appendChild(phonenumber);
       card.appendChild(email);
-      card.appendChild(image);
       card.appendChild(website);
+      card.appendChild(image);
+      
 
       document.querySelector('div.cards').appendChild(card);
    }
