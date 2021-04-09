@@ -82,8 +82,11 @@
     
   
 /* directory page*/
-.cards {
+.card-grid .cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+ .card-list .cards{
+   grid-template-columns: 1fr;
  }
  
 /*join page*/

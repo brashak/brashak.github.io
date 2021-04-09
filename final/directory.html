@@ -44,12 +44,14 @@
    <main>
      <h2>Member Directory</h1>
       <div id="btnContainer">
-        <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
-        <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+        <div class="card-list"><button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button></div>
+        <div class="card-grid"><button class="btn" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button></div>
       </div> 
 
+      
      <div class="cards"></div>
 
+    
     </main>
 
       <footer>
@@ -58,7 +60,6 @@
       </div>
       <br><span id="currentDate"></span>
       </footer>
-     
       <script src="/final/js/directory.js"></script>
       <script src="/final/js/java.js"></script>
      </body>

@@ -101,6 +101,8 @@ nav {
 	color: white;
 	font-weight: 700;
 }
+
+
 h2{
     font-family: 'shrikhand', cursive;
     color: black;
@@ -310,6 +312,9 @@ form {
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     gap: 5px; 
   }
+  .cards section{
+    background-color: #e7e3dd;
+  }
   .btn {
     border: none;
     outline: none;
@@ -327,7 +332,7 @@ form {
     background-color: #666;
     color: white;
   }
-
+  
   /* contact page*/
   .contact-us, .board{
       text-align: center;
