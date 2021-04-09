@@ -12,6 +12,9 @@
         text-align: center;
         font-size: 2em;
     }
+    .navigation li .active{
+      color: black;
+    }
     .navigation li:first-child{
         display: none;
     }
