@@ -316,14 +316,7 @@ form {
     margin-bottom: 50px;
   }
 
-  .cards .list-view:active{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .cards .grid-view:active{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+  
   .cards {
     display: grid;
     grid-template-columns: 1fr ; 
