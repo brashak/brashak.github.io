@@ -5,56 +5,56 @@
         "phonenumber": "435-315-3083",
         "email": "Jenn@spruceyourhome.com",
         "link": "https://spruceyourhome.com/",
-        "image": "/final/images/spruce.png"
+        "imageurl": "https://spruceyourhome.com/wp-content/uploads/2018/01/SPRUCE-Header-Logo.png"
       },
       {
         "businessname": "Wilderness Access Outfitters",
         "phonenumber": "435-659-9088",
         "email": "contact form on website",
         "link": "https://www.waoutah.com/",
-        "imag": "/final/images/wao.png"
+        "imageurl": "https://static1.squarespace.com/static/58a74f1237c58131017632f6/t/58ed46546b8f5b20a1e0da66/1615447533667/?format=1500w"
       },
       {
         "businessname": "Midway Mercantile Restaurant",
         "phonenumber": "435-315-4151",
         "email": "contact form on website",
         "link": "https://www.midwaymercantile.com/",
-        "image": "/final/images/mercantile.png"
+        "imageurl": "https://static.wixstatic.com/media/05cba9_1825d9b4b13f4b948d01d5a8f2e962a3~mv2.png/v1/fill/w_379,h_190,al_c,q_85,usm_0.66_1.00_0.01/MM%20Logo%20for%20header%2019.webp"
       },
       {
         "businessname": "Wasatch Excursions",
         "phonenumber": "435-729-9595",
         "email": "contact form on website",
         "link": "https://wasatchexcursions.com/",
-        "image": "/final/images/excursion.png"
+        "imageurl": "https://wasatchexcursions.com/wp-content/uploads/elementor/thumbs/we3_poster_-1-ooih1a8z61j50lb5udmwpnx8605jzs64my76i521yw.png"
         },
         {
         "businessname": "Deer Island Creek Resort",
         "phonenumber": "435-654-2155",
         "email": "dcirrentals@gmail.com",
         "link": "https://deercreekislandresort.com/",
-        "image": "/final/images/deercreek.png"
+        "imageurl": "https://fh-sites.imgix.net/sites/1255/2020/07/01211103/Official-DCIR-Logo-Blue_Brown.png?auto=compress%2Cformat&h=120&fit=max"
         },
         {
         "businessname": "Fernweh",
         "phonenumber": "435-315-3625",
         "email": "N/A",
         "link": "https://fernwehlifestyle.com/",
-        "image": "/final/images/fernweh.png"
+        "imageurl": "https://fernwehlifestyle.com/wp-content/uploads/2016/11/fernweh-logo.png"
         },
         {
         "businessname": "Midway Bakery on Main",
         "phonenumber": "435-557-0518",
         "email": "N/A",
         "link": "N/A",
-        "image": "/final/images/bakery.jpg"
+        "imageurl": "https://www.facebook.com/midwaybakeryonmain/photos/a.866836143483548/915929331907562/?__tn__=%3C"
         },
         {
         "businessname": "KB Horses",
         "phonenumber": "435-657-0515",
         "email": "N/A",
         "link": "https://www.kbhorses.com/",
-        "image": "/final/images/horses.jpeg"
+        "imageurl": "https://static.wixstatic.com/media/4884bf_8535490eff1143a287ceaa65ef41cce6~mv2.png/v1/fill/w_296,h_171,al_c,q_85/4884bf_8535490eff1143a287ceaa65ef41cce6~mv2.webp"
                
         }
     ]
