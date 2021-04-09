@@ -1,6 +1,9 @@
 /* home page */
 @media only screen and (min-width: 32.5em){
-    /* menu */
+    main{
+      max-width: 1000px;
+    }
+  /* menu */
     .navigation{
         display: flex;
     }
