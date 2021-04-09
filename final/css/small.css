@@ -16,10 +16,11 @@ main{
     align-content: center;
     
 }
-.menu-id{
+.menu-id li{
   display: block;
 
 }
+
 
 header{
     background-color: #4d774d;
@@ -111,9 +112,7 @@ nav {
 	font-weight: 700;
 }
 
-.responsive li{
-  display: none;
-}
+
 h2{
     font-family: 'shrikhand', cursive;
     color: black;
@@ -270,6 +269,7 @@ form {
   }
   fieldset{
    font-weight: bold;
+   margin: 0 auto;
   }
 
 .member-key{
@@ -356,9 +356,13 @@ form {
     border: solid 2px #4d774d;
     width: 80%;
     margin: 0 auto;
-    align-items: center;
-    padding: 10px;
+    text-align: center;
+    padding: 20px;
   }
+  .comments fieldset{
+    margin: 0 auto;
+  }
+  
   .board{
     padding: 10px;
   }
