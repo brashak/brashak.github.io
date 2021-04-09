@@ -87,23 +87,16 @@
   }
 
   .contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     color: black;
     background-color: white;
+    margin: 0 auto;
     }
-    
-    #map {
-    grid-column: 1/2;
-    grid-row: 1;
-    height: 250px;
+    .icon {
+      width: 50px;
+      padding: 10px;
+      align-self: center;
     }
-    
-    .contact-info {
-    grid-column: 2/3;
-    grid-row: 1;
-    }
-
+   
     
   
 /* directory page*/
