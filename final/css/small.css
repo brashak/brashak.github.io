@@ -207,6 +207,8 @@ form {
     color: black;
     font-size: 1.1em;
     font-family: 'sansita', sans-serif;
+    margin: 0 auto;
+    width: 70%;
   }
   
   form fieldset {
@@ -314,6 +316,14 @@ form {
     margin-bottom: 50px;
   }
 
+  .cards .list-view:active{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cards .grid-view:active{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   .cards {
     display: grid;
     grid-template-columns: 1fr ; 

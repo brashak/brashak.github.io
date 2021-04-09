@@ -45,7 +45,7 @@ fetch(apiURL_forecast)
 
   console.log(forecastData);
 
-  const weekdays = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+  const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
    let day = 0;
   forecastData.forEach(forecast => {
