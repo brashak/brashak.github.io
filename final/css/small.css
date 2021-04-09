@@ -20,7 +20,9 @@ main{
   display: block;
 
 }
-
+.responsive li{
+  display: none;
+}
 
 header{
     background-color: #4d774d;
