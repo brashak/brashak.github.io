@@ -1,7 +1,6 @@
 //hamburger
 function toggleMenu() {
-  document.getElementsByClassName("navigation")[0].classList.toggle("menu-id");
-}
+  document.getElementsByClassName("navigation")[0].classList.toggle("menu-id"); }
 
 //footer date
 const day1 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
