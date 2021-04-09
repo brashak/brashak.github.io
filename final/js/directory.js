@@ -9,26 +9,28 @@ fetch(requestURL)
    const directory = jsonObject['directory'];
    for (let i = 0; i < directory.length; i++) {
       let card = document.createElement('section');
+      let carddiv = document.createElement('div');
       let h2 = document.createElement('h2');
       let image = document.createElement('img');
       let  phonenumber = document.createElement('div');
       let  email = document.createElement('div');
-      let website= document.createElement('div');
+      let website= document.createElement('a');
       h2.textContent = directory[i].businessname;
       phonenumber.setAttribute('class', 'phonenumber')
       phonenumber.textContent = 'Phone Number: ' + directory[i].phonenumber;
       email.setAttribute('class', 'email')
       email.textContent = 'Email: ' + directory[i].email;
-      website.setAttribute('class', 'website')
-      website.textContent = 'Website: ' + directory[i].website;
+      website.setAttribute('href', directory[i].website);
+      website.innerHTML = directory[i].website;
       image.setAttribute('src', directory[i].imageurl);
       image.setAttribute('alt', directory[i].businessname);
       card.appendChild(h2);
       card.appendChild(phonenumber);
       card.appendChild(email);
-      card.appendChild(website);
       card.appendChild(image);
-      document.querySelector('div.cards').appendChild(card);
+      carddiv.appendChild(website);
+
+      document.querySelector('div.website').appendChild(card);
    }
 });
 
