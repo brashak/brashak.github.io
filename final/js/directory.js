@@ -9,12 +9,11 @@ fetch(requestURL)
    const directory = jsonObject['directory'];
    for (let i = 0; i < directory.length; i++) {
       let card = document.createElement('section');
-      let carddiv = document.createElement('div');
       let h2 = document.createElement('h2');
       let image = document.createElement('img');
       let  phonenumber = document.createElement('div');
       let  email = document.createElement('div');
-      let website= document.createElement('a');
+      let website= document.createElement('div');
       h2.textContent = directory[i].businessname;
       phonenumber.setAttribute('class', 'phonenumber')
       phonenumber.textContent = 'Phone Number: ' + directory[i].phonenumber;
@@ -22,17 +21,19 @@ fetch(requestURL)
       email.textContent = 'Email: ' + directory[i].email;
       website.setAttribute('href', directory[i].website);
       website.innerHTML = directory[i].website;
+      website.textContent = 'Website:' + directory[i].website;
       image.setAttribute('src', directory[i].imageurl);
       image.setAttribute('alt', directory[i].businessname);
       card.appendChild(h2);
       card.appendChild(phonenumber);
       card.appendChild(email);
       card.appendChild(image);
-      carddiv.appendChild(website);
+      card.appendChild(website);
 
-      document.querySelector('div.website').appendChild(card);
+      document.querySelector('div.cards').appendChild(card);
    }
 });
+
 
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("cards .section");
