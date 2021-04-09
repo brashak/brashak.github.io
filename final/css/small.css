@@ -113,7 +113,14 @@ nav {
 	color: white;
 	font-weight: 700;
 }
-
+.navigation a:hover {
+	color: #4d774d;
+	background-color: white;
+}
+.active {
+  color: #EAC288;
+  background-color: white;
+}
 
 h2{
     font-family: 'shrikhand', cursive;
