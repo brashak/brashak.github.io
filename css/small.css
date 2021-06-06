@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    background-color: darkolivegreen;
+    color: coral;
+    font-size: 1.5em;
+    font-family: 'Delius Unicase', cursive;
+}
+h2{
+    text-align: center;
+    color: coral;
+    font-size: 1.5em;
+}
+header{
+    background-color: darkolivegreen;
+    padding: 1em;
+    align-content: center;
+}
+body{
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-family: 'Dosis', sans-serif;
+    width: 750px;
+    background-color: white;
+    align-content: center;
+}
+#picture{
+    width: 200px;
+    height: auto;
+    margin-bottom: 1em;
+    float: right;
+}
+ul{
+    color: black;  
+}
+main{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+main a:hover{
+    color: coral;
+    font-weight: bold;
+}
+main a:link{
+    color: black;
+}
+footer{
+    background-color: darkolivegreen;
+    text-align: center;
+    color: coral;
+    padding: 1em;
+    margin-top: 1em;
+}
+#outputData{
+    text-align: center;
+}
+
+  
