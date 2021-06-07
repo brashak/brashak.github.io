@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    background-color: darkolivegreen;
+    background-color: navy;
     color: coral;
     font-size: 1.5em;
     font-family: 'Delius Unicase', cursive;
@@ -11,7 +11,7 @@ h2{
     font-size: 1.5em;
 }
 header{
-    background-color: darkolivegreen;
+    background-color: navy;
     padding: 1em;
     align-content: center;
 }
@@ -28,6 +28,7 @@ body{
     height: auto;
     margin-bottom: 1em;
     float: right;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 ul{
     color: black;  
@@ -44,7 +45,7 @@ main a:link{
     color: black;
 }
 footer{
-    background-color: darkolivegreen;
+    background-color: navy;
     text-align: center;
     color: coral;
     padding: 1em;
@@ -52,6 +53,7 @@ footer{
 }
 #outputData{
     text-align: center;
+    font-family:'Delius Unicase', cursive;  
 }
 
   
