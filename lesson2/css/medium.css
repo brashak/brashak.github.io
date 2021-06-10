@@ -1,0 +1,16 @@
+@media (min-width: 32.5em) {
+    h1{
+        text-align: center;
+        background-color: navy;
+        color: coral;
+        font-size: 2.5em;
+    }
+    h2{
+        text-align: center;
+        color: coral;
+        font-size: 2em;
+    }
+    nav ul{
+        display: flex;
+    } 
+ }

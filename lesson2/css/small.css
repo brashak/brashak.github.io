@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    background-color: navy;
+    color: coral;
+    font-size: 1.5em;
+    font-family: 'Delius Unicase', cursive;
+}
+h2{
+    text-align: center;
+    color: coral;
+    font-size: 1.5em;
+}
+header{
+    background-color: navy;
+    padding: 1em;
+    align-content: center;
+}
+body{
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-family: 'Dosis', sans-serif;
+    width: 800px;
+    background-color: white;
+    align-content: center;
+}
+#logo{
+    width: 200px;
+    height: auto;
+    margin-bottom: 1em;
+    filter: drop-shadow(0 0 0.75rem black);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    background-color: coral;
+    margin: 0 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+ul{
+    color: navy;
+    font-family: 'Dosis', sans-serif;  
+}
+nav a:hover{
+    color: white;
+    font-weight: bold;
+}
+main{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+footer{
+    background-color: navy;
+    text-align: center;
+    color: coral;
+    padding: 1em;
+    margin-top: 1em;
+}
+.school-link{
+    color: white;
+}
+#outputData{
+    text-align: center;
+    font-family:'Delius Unicase', cursive;  
+}
+
+  
