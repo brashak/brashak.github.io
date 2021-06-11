@@ -2,4 +2,7 @@
     #picture{
         float: right;
     }
+    body{
+        margin: 0 auto;
+    }
  }
