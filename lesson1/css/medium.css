@@ -1,5 +1,5 @@
 @media (min-width: 32.5em) {
-    #picture{
-        float: right;
+    img{
+        max-width: 70%;
     }
  }
