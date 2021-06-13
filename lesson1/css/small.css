@@ -15,40 +15,38 @@ header{
     padding: 1em;
     align-content: center;
 }
-body{
+main{
     margin: 0 auto;
-    font-size: 1.2em;
-    font-family: 'Dosis', sans-serif;
-    width: 100%;
-    background-color: white;
-    align-content: center;
-}
-* {
-    box-sizing: border-box;
-}
-.design-principles{
-    display: table;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    font-size: 1 em;
+    padding-top: 2rem;
+    font-family: 'dosius', sans-serif;
     text-align: center;
-    margin: 0 auto;
 }
-#column{
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    font-family: 'Dosis', sans-serif;
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+img {
+max-width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 .links{
-    color: navy;
+    text-align: center;
     font-weight: bold;
 }
 .links:hover{
     color: coral;
 }
-img{
-    padding: 2em;
-    
-}
 footer{
+    font-family:'Delius Unicase', cursive;
     background-color: navy;
     text-align: center;
     color: coral;
