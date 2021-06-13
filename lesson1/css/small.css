@@ -30,7 +30,7 @@ main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem;
-	background-color: #eee;
+	background-color: lightgrey;
 }
 img {
 max-width: 100%;
