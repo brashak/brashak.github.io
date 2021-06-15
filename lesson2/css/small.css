@@ -36,13 +36,14 @@ nav ul{
     background-color: coral;
     margin: 0 2px;
     padding: 5px;
-    display: flex;
+    display: block;
     justify-content: space-around;
     list-style-type: none;
 }
 ul{
     color: navy;
-    font-family: 'Dosis', sans-serif;  
+    font-family: 'Dosis', sans-serif; 
+    font-weight: bold; 
 }
 nav a:hover{
     color: white;
@@ -65,6 +66,57 @@ footer{
 #outputData{
     text-align: center;
     font-family:'Delius Unicase', cursive;  
+}
+
+/* Typography page*/
+#header{
+    font-family: 'ultra', serif;
+    font-size: 45px;
+}
+#navigation{
+    font-family: 'sanchez', serif;
+    font-size: 25px;
+}
+#header-one{
+    font-family: 'sanchez', serif;
+    font-size: 2em;
+}
+#header-two{
+    font-family: 'sanchez', serif;
+    font-size: 1.5em;
+}
+#header-three{
+    font-family: 'sanchez', serif;
+    font-size: 1.2em;
+}
+#body-typography{
+    font-family: 'sanchez', serif;
+    font-size: 1em;
+}
+#footer-typography{
+    font-family: 'ultra', serif;
+    font-size: 1em;
+}
+/* Color Scheme page*/
+#header-footer{
+    color: #d62828;
+    font-weight: bold;
+}
+#website-background{
+    color: #EAE2B7;
+    font-weight: bold;
+}
+#navigation-color{
+    color: #F77F00;
+    font-weight: bold;
+}
+#header-color{
+    color: #003049;
+    font-weight: bold;
+}
+#transitions{
+    color: #FCBF49;
+    font-weight: bold;
 }
 
   

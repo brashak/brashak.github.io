@@ -13,4 +13,7 @@
     nav ul{
         display: flex;
     } 
+    main{
+        margin: 0 auto;
+    }
  }
