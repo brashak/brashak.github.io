@@ -19,7 +19,7 @@ body{
     margin: 0 auto;
     font-size: 1.2em;
     font-family: 'Dosis', sans-serif;
-    width: 800px;
+    max-width: 800px;
     background-color: white;
     align-content: center;
 }
