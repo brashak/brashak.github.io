@@ -1,0 +1,85 @@
+main{
+    margin: 0 auto;
+    padding: 100px;
+}
+header{
+    background-color: #D62828;
+    align-items: center;
+    font-family: 'sanchez', serif; 
+    font-size: 20px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#weather-logo{
+    height: 200px;
+    width: auto;
+    padding-right: 5px;
+}
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+    background-color: #FF7D00;
+    font-family: 'sanchez', serif;
+    overflow: hidden;
+    padding: 0;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+    font-family: 'sanchez', serif;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: black;
+	background-color: #FCBF49;
+}
+.responsive li{
+    display: none;
+}
+.content{
+    text-align: center;
+    display: block;
+    border: 2px dashed black;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #FCBF49;
+    opacity: 0.8;
+    color: black;
+    font-family: 'sanchez', serif;
+}
+.preston-heading{
+    font-family: 'ultra', serif;
+    font-size: 3em;
+    text-align: center;
+}
+.menu-id li {
+    display: block;
+}
+  footer {
+    background-color: #D62828;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    margin-top: 1em;
+    font-family: 'sanchez', serif;
+    margin: 0 auto;
+    max-width: 900px;
+}
+#outputData{
+    text-align: center;
+}
