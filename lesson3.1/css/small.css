@@ -1,7 +1,5 @@
-@media only screen  and (min-width: 800px) {
 html{
     background-color: #EAE2B7;
-    margin: 0 auto;
 }
 main{
     margin: 0 auto;
@@ -108,7 +106,7 @@ h3{
     background-color: #003049;
     color: white;
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
 }
 #motto{
     font-family: 'sanchez', serif;
@@ -118,14 +116,18 @@ h3{
     text-align: center;
     margin-left: 15px;
 }
+
 .summary {
-    display: block;
-    font-size: .8em;
+	display: block;
+	bottom: 10px;
+	left: 50px;
     background: radial-gradient(#eee, #FCBF49);
-    border: 1px solid #000;
-    padding: 5px;
-    color: black;
-    margin: 10px;
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+   font-family: 'sanchez', serif;
+   margin-left: 20px;
 }
 #summary-title{
     font-weight: bold;
@@ -133,6 +135,7 @@ h3{
     font-family: 'sanchez', serif;    
 }
 .hero-image{
+    position: relative;
     margin: 0 auto;
     max-width: 100%;
     border: 2px solid #000;
@@ -141,7 +144,7 @@ h3{
     display: none;
 }
 #article-image {
-    width: 100%;
+    width: 250px;
     height: 200px;
     padding: 5px;
     margin: 0 auto;
@@ -150,7 +153,6 @@ h3{
     font-family: 'sanchez', serif;
     border: 2px solid #000;
     margin: 5px;   
-    width: 100%;
 }
 
 .contact{ 
@@ -161,7 +163,6 @@ h3{
     padding: 10px;
     border: 2px solid #000;
     font-family: 'sanchez', serif;
-    width: 100%;
 }
 .active{
     background-color: #FCBF49;
@@ -176,12 +177,7 @@ h3{
     font-size: 1.2em;
     padding: 5px;
     font-weight: bold;
-}
-#map{
-    margin: 0 auto;
-    width: 100%;
-}
-}
+  }
   
 
   
