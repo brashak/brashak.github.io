@@ -112,68 +112,6 @@ h3{
     font-family: 'sanchez', serif;
     font-size: 2em;
 }
-.title{
-    text-align: center;
-    margin-left: 15px;
-}
-.summary {
-    position: absolute;
-    top: 0px;
-    font-size: .8em;
-    background: radial-gradient(#eee, #FCBF49);
-    border: 1px solid #000;
-    padding: 5px;
-    color: black;
-    margin: 10px;
-}
-#summary-title{
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: 'sanchez', serif;    
-}
-.hero-image{
-    margin: 0 auto;
-    max-width: 100%;
-    border: 2px solid #000;
-}
-.forecast{
-    display: none;
-}
-#article-image {
-    width: 250px;
-    height: 200px;
-    padding: 5px;
-    margin: 0 auto;
-}
-.article{
-    font-family: 'sanchez', serif;
-    border: 2px solid #000;
-    margin: 5px;   
-}
 
-.contact{ 
-    text-align: center;
-    grid-template-columns: 1fr;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 2px solid #000;
-    font-family: 'sanchez', serif;
-}
-.active{
-    background-color: #FCBF49;
-    color: white;
-    font-weight: bold;
-}
-#friday{
-    display: none;
-    color: #000;
-    font-family: 'sanchez', serif;
-    text-align: center;
-    font-size: 1.2em;
-    padding: 5px;
-    font-weight: bold;
-  }
-  
 
   
