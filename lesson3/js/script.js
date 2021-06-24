@@ -14,7 +14,7 @@ function toggleMenu() {
   
   
   if (day1[day] == 'Friday') {
-      document.getElementById("friday").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+      document.getElementById("friday").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion!";
       document.getElementById("friday").style.display = "block";
   }
   else {
