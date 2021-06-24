@@ -146,8 +146,8 @@ h3{
     display: none;
 }
 #article-image {
-    width: 250px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
     padding: 5px;
     margin: 0 auto;
 }
@@ -170,6 +170,14 @@ h3{
     background-color: #FCBF49;
     color: white;
     font-weight: bold;
+}
+#map{
+    width: 150px;
+    height: 100px;
+}
+.icon{
+    width: 25px;
+    height: 25px;
 }
 
 
