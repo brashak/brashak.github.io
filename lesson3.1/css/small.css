@@ -126,8 +126,9 @@ h3{
 	padding: 1.5rem;
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
-   font-family: 'sanchez', serif;
-   margin-left: 20px;
+    font-family: 'sanchez', serif;
+    margin-left: 20px;
+    margin: 0 auto;
 }
 #summary-title{
     font-weight: bold;
