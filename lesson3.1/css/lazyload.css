@@ -16,5 +16,5 @@ main {
     width: 100%;
 }
 img[data-src] {
-    filter: blur(.5em);
+    filter: blur(1px);
 }
