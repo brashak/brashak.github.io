@@ -3,7 +3,6 @@ html{
 }
 main{
     margin: 0 auto;
-    padding: 100px;
 }
 header{
     background-color: #D62828;
@@ -178,7 +177,30 @@ h3{
     font-size: 1.2em;
     padding: 5px;
     font-weight: bold;
-  }
+}
+/*week 4*/
+#gallery-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+}
+#gallery-images figure {
+    margin: 0;
+    padding: 0;
+}
+#gallery-images figcaption {
+    font-family: 'sanchez', serif;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+#gallery {
+    width: 100%;
+}
+img[data-src] {
+    filter: blur(.5em);
+}
   
 
   
