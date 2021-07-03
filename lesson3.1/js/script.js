@@ -20,4 +20,9 @@ if (day1[day] == 'Friday') {
 else {
     document.getElementById("friday").style.display = "none";
 }
+
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+
  
