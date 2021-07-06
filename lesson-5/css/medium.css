@@ -1,0 +1,11 @@
+@media (min-width: 32.5em) {
+    main {
+        margin: 0 auto;
+        width: 700px;
+        text-align: center;
+    }    
+/*week 4*/
+#gallery-images {
+    grid-template-columns: 1fr 1fr;
+}
+}
