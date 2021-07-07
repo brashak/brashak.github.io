@@ -253,9 +253,9 @@ form {
 }
 /*week 5*/
 .desktop-view .phone-view .tablet-view{
-    margin: 0 auto;
-    align-content: center;
-    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
