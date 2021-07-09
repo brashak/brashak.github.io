@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-us">
+    
+     <head>
+        <title>Brittany Rashak</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Brittany Rashak">
+        <meta name="description" content="Responsive Images">
+        <link rel="stylesheet" href="/lesson-10/css/normalize.css">
+        <link rel="stylesheet" href="/lesson-10/css/small.css">
+        <link rel="stylesheet" href="/lesson-10/css/medium.css">
+        <link rel="stylesheet" href="/lesson-10/css/large.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img id="weather-logo" src="/weather/images/weatherlogo.jpg" alt="weather logo">
+          <section class="title">
+            <h1>Pinpoint Weather</h1>
+            <section id="motto">Pinpoint Accuracy!</section>
+          </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+              <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+              <li><a href="/lesson-10/index.html">Home</a></li>
+              <li><a class="active" href="/lesson-10/preston-10.html">Preston</a></li>
+              <li><a href="#">Soda Springs</a></li>
+              <li><a href="#">Fish Haven</a></li>
+              <li><a href="/lesson-10/storm-center.html">Storm Center</a></li>
+              <li><a href="/lesson-10/gallery-7.html">Gallery</a></li>
+            </ul>
+          </nav>
+
+          <main>
+            <div id="friday" style="display: block;"></div>
+
+            <h2 class="preston-heading">Preston Idaho</h2>
+
+            <div class="hero">
+              <picture>
+                <source media="(max-width: 800px)" srcset="/lesson3.1/images/hero-400.jpg">
+                <source media="(max-width: 1001px)" srcset="/lesson3.1/images/hero-800.jpg">
+                <img class="hero-image" src="/lesson3.1/images/hero-1000.jpg" alt="sunny day">
+              </picture>
+              <section class="summary">
+                <p id="summary-title">Weather Summary</p>
+                  <p>Currently: <span id="currently"></span></p>
+                  <p>High: <span id="temp"></span>°F</p>
+                  <p>Wind Chill: <span id="windchill"></span>°F</p>
+                  <p>Humidity: <span id="humidity"></span>%</p>
+                  <p>Wind Speed: <span id="speed"></span>mph</p>
+              </section>
+            </div>
+
+            <div class="forecast">
+              <h3>5 Day Forecast</h3>
+              <div id="week-forecast">
+
+                <div class="forecasts">
+                <div id="day1"></div>
+                <img src="#" alt="" id="img1">
+                <div id="temp1"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day2"></div>
+                <img src="#" alt="" id="img2">
+                <div id="temp2"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day3"></div>
+                <img src="#" alt="" id="img3">
+                <div id="temp3"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day4"></div>
+                <img src="#" alt="" id="img4">
+                <div id="temp4"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day5"></div>
+                <img src="#" alt="" id="img5">
+                <div id="temp5"></div>
+                </div>
+
+            </div>
+            </div>
+
+            <div class="article">
+              <h3>Tempertaures Heat up the West</h3>
+              <img id="article-image" src="/weather/images/article-image.jpg" alt="flower">
+              <p> According to AcuWeather meteorologist, Renee Duff, the magnitude of the heat across 
+                the western United States through the coming week will be one for the record books, but it is how long it will last the really sets it 
+                apart from other heatwaves.
+              <p>The National Weather Service (NWS) has issued excessive heat watches and warnings throughout California, southern Nevada, western and 
+                southern Arizona and Utah. Many of these alerts last through Friday, June 18, as the jet stream arcs over the western states.</p>...<a href="https://www.hjnews.com/preston/temperatures-heat-up-the-west/article_b1d4b11e-1540-5b0d-a10b-2a869caab050.html">More</a></p>
+            </div>
+
+            <div class="contact">
+              <h3>Contact Information</h3>
+              <div id="contact-info">
+                <p>Pinpoint Weather</p>
+                <p>30 N 1st E</p>
+                <p>Preston, Idaho 83263</p>
+                <br>
+                <p>986-555-5555</p>
+                <p>contact@pinpointweather.com</p>
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="/weather/images/facebook-icon.png" alt="Facebook icon"></a>
+                <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="/weather/images/instagram-icon.png" alt="Instagram icon"></a>
+                <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="/weather/images/twitter-icon.png" alt="Twitter icon"></a>
+            </div>
+            <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+          </div>
+          </main>
+        
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+          <footer>
+           &copy; 2021 | Brittany Rashak | Utah | <a class="school-link" href="https://www.byui.edu/online">BYU-I Online</a>   
+          <div>Last updated: <div id="outputData"></div></div>
+          </footer>
+      
+          <script src="/lesson-10/js/script.js"></script>
+          <script src="/lesson-10/js/windchill.js"></script>
+          <script src="/lesson-10/js/weatherapi.js"></script>
+          
+    </body>
+    </html>
