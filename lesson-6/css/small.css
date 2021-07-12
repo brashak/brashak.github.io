@@ -69,7 +69,6 @@ nav {
     font-family: 'sanchez', serif;
 }
 .preston-heading{
-    font-family: 'ultra', serif;
     font-size: 3em;
     text-align: center;
 }
@@ -201,6 +200,10 @@ h3{
 img[data-src] {
     filter: blur(1px);
 }
+h2{
+    color: #fff;
+    background-color: #003049;
+}
 /*week 5*/
 form {
     color: #000;
@@ -300,7 +303,17 @@ h2 {
     font-size: 2.3em;
     color: #fff;
     background-color: #003049;
- }
+}
+/*week 6*/
+.events{
+    font-family:'sanchez', serif;
+    border: 2px solid #000;
+    max-width: 40%;
+    margin: 0 auto;
+}
+.preston-heading .sodasprings-heading .fishhaven-heading{
+    font-family: 'sanchez', serif;
+}
 
 
 

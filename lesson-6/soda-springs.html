@@ -6,11 +6,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Brittany Rashak">
-        <meta name="description" content="Responsive Images">
-        <link rel="stylesheet" href="/lesson-10/css/normalize.css">
-        <link rel="stylesheet" href="/lesson-10/css/small.css">
-        <link rel="stylesheet" href="/lesson-10/css/medium.css">
-        <link rel="stylesheet" href="/lesson-10/css/large.css">
+        <meta name="description" content="Soda Springs">
+        <link rel="stylesheet" href="/lesson-6/css/normalize.css">
+        <link rel="stylesheet" href="/lesson-6/css/small.css">
+        <link rel="stylesheet" href="/lesson-6/css/medium.css">
+        <link rel="stylesheet" href="/lesson-6/css/large.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 
     <body>
         <header>
-            <img id="weather-logo" src="/weather/images/weatherlogo.jpg" alt="weather logo">
+            <img id="weather-logo" src="/lesson-6/images/weatherlogo.jpg" alt="weather logo">
           <section class="title">
             <h1>Pinpoint Weather</h1>
             <section id="motto">Pinpoint Accuracy!</section>
@@ -28,24 +28,27 @@
         <nav>
             <ul class="navigation">
               <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-              <li><a href="/lesson-10/index.html">Home</a></li>
-              <li><a class="active" href="/lesson-10/preston-10.html">Preston</a></li>
-              <li><a href="#">Soda Springs</a></li>
-              <li><a href="#">Fish Haven</a></li>
-              <li><a href="/lesson-10/storm-center.html">Storm Center</a></li>
-              <li><a href="/lesson-10/gallery-7.html">Gallery</a></li>
+              <li><a href="/lesson-6/index.html">Home</a></li>
+              <li><a href="/lesson-6/preston-10.html">Preston</a></li>
+              <li><a class="active" a href="/lesson-6/soda-springs.html">Soda Springs</a></li>
+              <li><a href="/lesson-6/fish-haven.html">Fish Haven</a></li>
+              <li><a href="/lesson-6/storm-center.html">Storm Center</a></li>
+              <li><a href="/lesson-6/gallery-7.html">Gallery</a></li>
             </ul>
           </nav>
 
           <main>
 
-            <h2 class="sodasprings-heading">Soda Springs Idaho</h2>
-
+            <h2 class="sodasprings-heading">Soda Springs, Idaho</h2>
+            <br>
+            <div class="events">
+              <h3>Upcoming Events</h3>
+            </div>
             <div class="hero">
               <picture>
-                <source media="(max-width: 800px)" srcset="/lesson3.1/images/hero-400.jpg">
-                <source media="(max-width: 1001px)" srcset="/lesson3.1/images/hero-800.jpg">
-                <img class="hero-image" src="/lesson3.1/images/hero-1000.jpg" alt="sunny day">
+                <source media="(max-width: 800px)" srcset="/lesson-6/images/sodaspings-400.jpg">
+                <source media="(max-width: 1001px)" srcset="/lesson-6/images/sodasprings-800.jpg">
+                <img class="hero-image" src="/lesson-6/images/sodasprings-1000.jpg" alt="soda pic">
               </picture>
               <section class="summary">
                 <p id="summary-title">Weather Summary</p>
@@ -53,7 +56,7 @@
                   <p>High: <span id="temp"></span>°F</p>
                   <p>Wind Chill: <span id="windchill"></span>°F</p>
                   <p>Humidity: <span id="humidity"></span>%</p>
-                  <p>Wind Speed: <span id="speed"></span>mph</p>
+                  <p>Wind Speed: <span id="speed"></span></p>
               </section>
             </div>
 
@@ -95,13 +98,14 @@
             </div>
 
             <div class="article">
-              <h3>Tempertaures Heat up the West</h3>
-              <img id="article-image" src="/weather/images/article-image.jpg" alt="flower">
-              <p> According to AcuWeather meteorologist, Renee Duff, the magnitude of the heat across 
-                the western United States through the coming week will be one for the record books, but it is how long it will last the really sets it 
-                apart from other heatwaves.
-              <p>The National Weather Service (NWS) has issued excessive heat watches and warnings throughout California, southern Nevada, western and 
-                southern Arizona and Utah. Many of these alerts last through Friday, June 18, as the jet stream arcs over the western states.</p>...<a href="https://www.hjnews.com/preston/temperatures-heat-up-the-west/article_b1d4b11e-1540-5b0d-a10b-2a869caab050.html">More</a></p>
+              <h3>Firefighters battling 2 separate wildfires in different parts of the state</h3>
+              <img id="soda-article" src="/lesson-6/images/soda-article.png" alt="smoke">
+              <p> Multiple agencies are working to contain a wildfire near Soda Springs.
+                The 5-10-acre Wood Canyon Fire broke out at 11:54 a.m., according to the U.S. Bureau of Land Management Idaho Fire Facebook page.
+                “The fire is actively burning in grass, brush and juniper,” the Facebook post says. “The cause of the fire is lightning from recent thunderstorms.”
+                As of about 3 p.m., firefighters still aren’t sure when the fire will be contained. No injuries have been reported and no homes or buildings are at risk.
+              <p>Resources on scene include eight fire engines, one bulldozer, one helicopter, one air attack and four SEATS (single-engine air tanker).
+                EastIdahoNews.com will provide any updates once they are available.</p>...<a href="https://www.eastidahonews.com/2021/07/firefighters-battling-2-separate-wildfires-in-different-parts-of-the-state/">More</a></p>
             </div>
 
             <div class="contact">
@@ -117,7 +121,7 @@
                 <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="/weather/images/instagram-icon.png" alt="Instagram icon"></a>
                 <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="/weather/images/twitter-icon.png" alt="Twitter icon"></a>
             </div>
-            <iframe id="map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.96064633286!2d-111.62379147650239!3d42.661407516812865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1625865073258!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
           </main>
         
@@ -127,9 +131,8 @@
           <div>Last updated: <div id="outputData"></div></div>
           </footer>
       
-          <script src="/lesson-10/js/script.js"></script>
-          <script src="/lesson-10/js/windchill.js"></script>
-          <script src="/lesson-10/js/weatherapi.js"></script>
+          <script src="/lesson-6/js/script.js"></script>
+          <script src="/lesson-6/js/sodasprings.js"></script>
           
     </body>
     </html>

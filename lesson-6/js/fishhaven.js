@@ -1,4 +1,4 @@
-const apiURL_weather= 'https://api.openweathermap.org/data/2.5/weather?id=5607916&appid=2c6bdbd53e64e351529171a4fe9b31ed&units=imperial';
+const apiURL_weather= 'https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=2c6bdbd53e64e351529171a4fe9b31ed&units=imperial';
     fetch(apiURL_weather)    
     .then(function (response) {
     return response.json();
@@ -21,7 +21,7 @@ const apiURL_weather= 'https://api.openweathermap.org/data/2.5/weather?id=560791
         document.getElementById("windchill").textContent = output;
   });
 
-const apiURL_forecast= 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=2c6bdbd53e64e351529171a4fe9b31ed&units=imperial';
+const apiURL_forecast= 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=2c6bdbd53e64e351529171a4fe9b31ed&units=imperial';
     fetch(apiURL_forecast)
     .then(response => response.json())
     .then((jsObject) => {
@@ -52,7 +52,7 @@ fetch(requestURL)
  .then(function (jsonObject) {
    const towns = jsonObject['towns'];
    for (let i = 0; i < towns.length; i++ ) {
-       if (towns[i].name == 'Soda Springs') {
+       if (towns[i].name == 'Fish Haven') {
         let events = towns[i].events;
         for (let i=0; i < events.length; i++) {
         let event = document.createElement('p');
