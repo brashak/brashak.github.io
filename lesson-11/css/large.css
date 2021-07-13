@@ -97,6 +97,7 @@ footer {
 /*week 4*/
 #gallery-images{
    grid-template-columns: 1fr 1fr 1fr;
+   width: 100%;
 }
 #gallery-images figure:hover{
    box-shadow: 0 0 50px #000;
@@ -122,6 +123,9 @@ h1 {
 h4{
    color: #000;
    text-align: center;
+}
+body{
+   margin: 0 auto;
 }
 /*week 6*/
 #week-forecast {
