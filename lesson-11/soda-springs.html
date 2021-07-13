@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en-us">
+    
+     <head>
+        <title>Brittany Rashak</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Brittany Rashak">
+        <meta name="description" content="Soda Springs">
+        <link rel="stylesheet" href="/lesson-11/css/normalize.css">
+        <link rel="stylesheet" href="/lesson-11/css/small.css">
+        <link rel="stylesheet" href="/lesson-11/css/medium.css">
+        <link rel="stylesheet" href="/lesson-11/css/large.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img id="weather-logo" src="/lesson-11/images/weatherlogo.jpg" alt="weather logo">
+          <section class="title">
+            <h1>Pinpoint Weather</h1>
+            <section id="motto">Pinpoint Accuracy!</section>
+          </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+              <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+              <li><a href="/lesson-11/index.html">Home</a></li>
+              <li><a href="/lesson-11/preston.html">Preston</a></li>
+              <li><a class="active" a href="/lesson-11/soda-springs.html">Soda Springs</a></li>
+              <li><a href="/lesson-11/fish-haven.html">Fish Haven</a></li>
+              <li><a href="/lesson-11/storm-center.html">Storm Center</a></li>
+              <li><a href="/lesson-11/gallery.html">Gallery</a></li>
+            </ul>
+          </nav>
+
+          <main>
+
+            <h2 class="sodasprings-heading">Soda Springs, Idaho</h2>
+            <br>
+            <div class="events">
+              <h3>Upcoming Events</h3>
+            </div>
+            <div class="hero">
+              <picture>
+                <source media="(max-width: 800px)" srcset="/lesson-11/images/sodaspings-400.jpg">
+                <source media="(max-width: 1001px)" srcset="/lesson-11/images/sodasprings-800.jpg">
+                <img class="hero-image" src="/lesson-11/images/sodasprings-1000.jpg" alt="soda pic">
+              </picture>
+              <section class="summary">
+                <p id="summary-title">Weather Summary</p>
+                  <p>Currently: <span id="currently"></span></p>
+                  <p>High: <span id="temp"></span>°F</p>
+                  <p>Wind Chill: <span id="windchill"></span>°F</p>
+                  <p>Humidity: <span id="humidity"></span>%</p>
+                  <p>Wind Speed: <span id="speed"></span></p>
+              </section>
+            </div>
+
+            <div class="forecast">
+              <h3>5 Day Forecast</h3>
+              <div id="week-forecast">
+
+                <div class="forecasts">
+                <div id="day1"></div>
+                <img src="#" alt="" id="img1">
+                <div id="temp1"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day2"></div>
+                <img src="#" alt="" id="img2">
+                <div id="temp2"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day3"></div>
+                <img src="#" alt="" id="img3">
+                <div id="temp3"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day4"></div>
+                <img src="#" alt="" id="img4">
+                <div id="temp4"></div>
+                </div>
+
+                <div class="forecasts">
+                <div id="day5"></div>
+                <img src="#" alt="" id="img5">
+                <div id="temp5"></div>
+                </div>
+
+            </div>
+            </div>
+
+            <div class="article">
+              <h3>Firefighters battling 2 separate wildfires in different parts of the state</h3>
+              <img id="soda-article" src="/lesson-11/images/soda-article.png" alt="smoke">
+              <p> Multiple agencies are working to contain a wildfire near Soda Springs.
+                The 5-10-acre Wood Canyon Fire broke out at 11:54 a.m., according to the U.S. Bureau of Land Management Idaho Fire Facebook page.
+                “The fire is actively burning in grass, brush and juniper,” the Facebook post says. “The cause of the fire is lightning from recent thunderstorms.”
+                As of about 3 p.m., firefighters still aren’t sure when the fire will be contained. No injuries have been reported and no homes or buildings are at risk.
+              <p>Resources on scene include eight fire engines, one bulldozer, one helicopter, one air attack and four SEATS (single-engine air tanker).
+                EastIdahoNews.com will provide any updates once they are available.</p>...<a href="https://www.eastidahonews.com/2021/07/firefighters-battling-2-separate-wildfires-in-different-parts-of-the-state/">More</a></p>
+            </div>
+
+            <div class="contact">
+              <h3>Contact Information</h3>
+              <div id="contact-info">
+                <p>Pinpoint Weather</p>
+                <p>30 N 1st E</p>
+                <p>Preston, Idaho 83263</p>
+                <br>
+                <p>986-555-5555</p>
+                <p>contact@pinpointweather.com</p>
+                <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="/lesson-11/images/facebook-icon.png" alt="Facebook icon"></a>
+                <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="/lesson-11/images/instagram-icon.png" alt="Instagram icon"></a>
+                <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="/lesson-11/images/twitter-icon.png" alt="Twitter icon"></a>
+            </div>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46943.96064633286!2d-111.62379147650239!3d42.661407516812865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8755968bb0047ae5%3A0x9d3970a1a6df8e12!2sSoda%20Springs%2C%20ID%2083276!5e0!3m2!1sen!2sus!4v1625865073258!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          </main>
+        
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+          <footer>
+           &copy; 2021 | Brittany Rashak | Utah | <a class="school-link" href="https://www.byui.edu/online">BYU-I Online</a>   
+          <div>Last updated: <div id="outputData"></div></div>
+          </footer>
+      
+          <script src="/lesson-11/js/script.js"></script>
+          <script src="/lesson-11/js/sodasprings.js"></script>
+          
+    </body>
+    </html>
