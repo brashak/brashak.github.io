@@ -18,8 +18,7 @@ const apiURL_weather= 'https://api.openweathermap.org/data/2.5/weather?id=560447
 })
     .then(function (jsonObject) {
         let temp = jsonObject.main.temp;
-        let tempHigh = jsonObject.main.temp_max;
-        let windspeed = jsonObject.wind.speed;
+        let speed = jsonObject.wind.speed;
 
         document.getElementById('currently').textContent = jsonObject.weather[0].description;
         document.getElementById('temp').textContent = Math.round(temp);
