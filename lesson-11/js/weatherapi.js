@@ -70,7 +70,7 @@ fetch(requestURL)
         for (let i=0; i < events.length; i++) {
         let event = document.createElement('p');
         event.innerHTML = events[i];
-        document.querySelector('.events').appendChild(event);
+        document.querySelector('div.events').appendChild(event);
         }
     }
    }
