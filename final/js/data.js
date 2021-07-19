@@ -9,7 +9,7 @@ fetch(requestURL)
     const data = jsonObject['data'];
     for (let i = 0; i < data.length; i++) {
        let card = document.createElement('section');
-       let h3 = document.createElement('h3');
+       let h2 = document.createElement('h2');
        let image = document.createElement('img');
        let  maxperson = document.createElement('div');
        let  reservationhalf = document.createElement('div');
@@ -29,7 +29,7 @@ fetch(requestURL)
        walkinfull.textContent = 'Walk In- Full Day: ' + data[i].walkinfull;
        image.setAttribute('src', data[i].imageurl);
        image.setAttribute('alt', data[i].rentalname);
-       card.appendChild(h3);
+       card.appendChild(h2);
        card.appendChild(maxperson);
        card.appendChild(reservationhalf);
        card.appendChild(reservationfull);
