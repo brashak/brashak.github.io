@@ -3,6 +3,11 @@ main{
     margin: 0 auto;
     max-width: 1500px;
 }
+h1{
+    font-family: 'bangers', cursive;
+    font-size: 3em;
+    color: #fff;
+}
     .navigation{
     display: flex;
 }

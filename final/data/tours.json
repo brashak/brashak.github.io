@@ -1,0 +1,40 @@
+{
+    "tours": [
+    {
+      "tourname": "Atlantis Submarine Expedition",
+      "summary": "Make the most of limited time and explore one of Cozumel’s most captivating coral reefs with a guide. Descend to depths of 100 feet (30 meters) and cruise along the ocean floor in the air-conditioned comfort of an Atlantis Submarine without getting wet. On this reef tour, you’ll learn about the marine ecosystem and see parts of the reef that were previously only accessible to scuba divers.",
+      "website": "https://www.tripadvisor.com/AttractionProductReview-g150809-d11449893-Atlantis_Submarine_Expedition_in_Cozumel-Cozumel_Yucatan_Peninsula.html",
+      "imageurl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/e9/0d/7b/caption.jpg?w=300&h=300&s=1"
+    },
+    {
+        "tourname": "Underground River and Caves Swim Tour",
+        "summary": "This unique shore excursion is a once in a lifetime chance to see mysterious underworls of the Mayan culture.",
+        "website": "https://www.tripadvisor.com/AttractionProductReview-g150809-d13960855-Cozumel_Shore_Excursion_Underground_River_Caves_Swim_Tour-Cozumel_Yucatan_Peninsul.html",
+        "imageurl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/43/b3/29/caption.jpg?w=300&h=300&s=1"
+      },
+      {
+        "tourname": "Tulum Mayan Ruins from Cozumel",
+        "summary": "Immerse yourself in the Mayan culture of the Tulum Ruins in the guided tour.",
+        "website": "https://www.tripadvisor.com/AttractionProductReview-g150809-d16822561-Tulum_Mayan_Ruins_from_Cozumel-Cozumel_Yucatan_Peninsula.html",
+        "imageurl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5b/75/d2/caption.jpg?w=300&h=300&s=1"
+      },
+      {
+        "tourname": "Mayan Jungle Jeep to Jade Cavern Cenote",
+        "summary": "Take the wheel of Jeep and explore the jungle beauty of Cozumel!",
+        "website": "https://www.tripadvisor.com/AttractionProductReview-g150809-d11458627-Mayan_Jungle_Jeep_to_Jade_Cavern_Cenote_and_Snorkel_Adventure-Cozumel_Yucatan_Peni.html",
+        "imageurl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f4/78/dd/caption.jpg?w=300&h=300&s=1"
+      },
+      {
+        "tourname": "Off-Road Mayan Adventure in Cozumel",
+        "summary": "This adventure tour will tke you to visit the Mayan Ruins at the San Gervasio Park, where the oldest Mayan city of the island is located.",
+        "website": "https://www.tripadvisor.com/AttractionProductReview-g150809-d11467600-Off_Road_Mayan_Adventure_in_Cozumel_with_Snorkeling_and_Lunch-Cozumel_Yucatan_Peni.html",
+        "imageurl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/db/13/5c/caption.jpg?w=300&h=300&s=1"
+      },
+      {
+        "tourname": "Whale Shark Adventure",
+        "summary": "Embark upon an incredible adventure swimming right beside these wonderful ocean giants.",
+        "website": "https://www.tripadvisor.com/AttractionProductReview-g150812-d19144889-Whale_Shark_Adventure-Playa_del_Carmen_Yucatan_Peninsula.html",
+        "imageurl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/29/78/c0/caption.jpg?w=300&h=300&s=1"
+      }  
+  ]
+  }

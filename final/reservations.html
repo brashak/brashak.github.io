@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-us">
+    
+     <head>
+        <title>Brittany Rashak</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Brittany Rashak">
+        <meta name="description" content="Scoots Reservation">
+        <link rel="stylesheet" href="/final/css/normalize.css">
+        <link rel="stylesheet" href="/final/css/small.css">
+        <link rel="stylesheet" href="/final/css/medium.css">
+        <link rel="stylesheet" href="/final/css/large.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img id="scoots-logo" src="/final/images/scoot-logo.png" alt="scoots logo">
+          <section class="title">
+            <h1>Scoots! Rentals</h1>
+            <section id="motto">Scoot Your Way Across Cozumel!</section>
+          </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+              <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+              <li><a href="/final/home.html">Home</a></li>
+              <li><a href="/final/rentals.html">Rentals</a></li>
+              <li><a class="active" href="/final/reservations.html">Reservations</a></li>
+              <li><a href="/final/tours.html">Tours</a></li>
+              <li><a href="/final/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+
+          <main>
+            <h2>Make A Reservation</h2>
+     <form method="GET" action="confirmation.html">
+         <div class="services">
+             <h3>Information and Services</h3>
+             <li>A $50 security desposit is required to confirm reservations</li>
+             <li>A valid drivers license is required in hand at time of rental</li>
+             <li>No one under 12 years of age is allowed to ride on the scooters</li>
+             <li>Fuel charge not included</li>
+             <li>Unlimited mileage</li>
+             <li>Liability insurance is free of charge</li>
+             <li>Reservations rate requires 24 hours prior notification</li>
+             <li>Free delivery to Cosumel hotel, Airbnb, or provate residence for 2+ day rentals</li>
+             <li>Payment via Google Pay, cash, credit card, debit card or PayPal</li>
+             <li>Rentals may be retuend to either location</li>
+         </div>
+        <fieldset>
+          <legend>Your Information</legend>
+            <label class="info">
+            *Full Name: <input type="text" name="fullname" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+            </label>
+            <label class="info">
+            Email: <input type="email" name="email" placeholder="info@scootsrental.com">
+            </label>
+            <br>  
+            <label class="info">
+            *Phone: <input type="tel" name="phone" title="Please write 10 numbers or more" placeholder="555-555-5555" required>
+            </label>
+            <label class="info">
+            Country: <input type="text" name="country" title="Please have at least 1 word entered" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+            </label>
+            <label class="info">
+            Cruise Line: <input type="text" name="cruiseline" title="Please have at least 3 letters entered" pattern="^[a-zA-Z\s\-\.]{3,}$">
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Reservation Details</legend>
+              <label class="reservation"> Reservation Date: <input type="date" name="reservation_date">
+              </label>
+
+              <label class="reservation-time"> Reservation Time: <input list="reservation_time" name="reservation_time">
+                <datalist id="reservation_time">
+                  <option value="Half Day (3 hrs)"></option>
+                  <option value="Full"></option> 
+                </datalist>
+              </label>
+              <label class="reservation"> Rental Type: <input list="rental_type" name="rental_type">
+                <datalist id="rental_type">
+                  <option value="Honda Dio Scooter"></option>
+                  <option value="Honda Metro Scooter"></option>
+                  <option value="Honda PCX150 Scooter"></option>
+                  <option value="Honda Pioneer ATV"></option>
+                  <option value="Jeep Wrangler 4-dr"></option>
+                  <option value="Jeep Wrangler 2-dr"></option>
+                </datalist>
+              </label>
+          </fieldset>
+          <br>
+          <fieldset>
+            <legend>Special Accomodations/Comments</legend>
+                <label class="top">Comments: </label>
+                <textarea name="comments" id="comments" placeholder="location of drop off"></textarea>
+          </fieldset>
+          <br>
+          <input class="submit-button" type="submit" value="Submit!">
+          </form> 
+            
+          </main>
+        
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+          <footer>
+           &copy; 2021 | Brittany Rashak | Utah | <a class="school-link" href="https://www.byui.edu/online">BYU-I Online</a>   
+          <div>Last updated: <div id="outputData"></div></div>
+          </footer>
+      
+    <script src="/final/js/weather.js"></script>
+    <script src="/final/js/script.js"></script>      
+          
+    </body>
+    </html>

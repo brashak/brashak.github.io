@@ -2,5 +2,10 @@
     main {
         margin: 0 auto;
         text-align: center;
-    } 
+    }
+    h1{
+        font-family: 'bangers', cursive;
+        font-size: 3em;
+        color: #fff;
+    }
 } 

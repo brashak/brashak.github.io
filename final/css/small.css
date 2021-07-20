@@ -22,7 +22,7 @@ h1{
     font-size: 3em;
     color: #fff;
 }
-h2 h3{
+h2, h3{
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
     text-align: center;
@@ -86,10 +86,27 @@ footer {
      text-align: center;
 }
  .rental-summary{
+     display: grid;
      font-family: 'Josefin Slab', serif;
-     width: 25%;
+     width: 50%;
      font-weight: bold;
      border: 2px solid #000;
+     grid-column-start: 1 / 2;
+     margin: 0 auto;
+}
+.home-services{
+    display: grid;
+    font-family: 'Josefin', serif;
+    width: 50%;
+    font-weight: bold;
+    border: 2px solid #000;
+    grid-column-start: 2 / 3;
+    margin: 0 auto;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 .current-weather{
     font-family: 'Josefin Slab', serif;
@@ -116,4 +133,69 @@ footer {
 }
 .forecast{
     display: none;
+}
+/*reservations*/
+form {
+    color: #000;
+    font-size: 1.1em;
+    font-family: 'josefin slab', serif;
+    font-weight: bold;
+}
+  form fieldset {
+    margin: 0 auto;;
+    border: 2px solid #000;
+    padding: 2em;
+    max-width: 80%;
+} 
+  form legend {
+    color: #31572c;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'bangers', cursive;
+}
+  form label.top, form label.info, form div {
+    display: block;
+    padding-bottom: 15px;
+}
+  form label.top input, form label.info input, form label.storm select {
+    display: block;
+    border: solid 1px #000;
+    padding: 0.5em;
+    background-color: #fff;
+    max-width: 800px;
+    font-family: 'josefin slab', serif;
+    margin: 0 auto;
+}
+  form label.reservation {
+    display: block;
+    padding: .75rem 0;
+}
+  form input.submit-button {
+    border: none;
+    background-color: #31572C;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 15px;
+    margin: 0 2em 5%;
+    width: 90%;
+    max-width: 15em;
+    font-family: 'josefin slab', serif;
+  }
+.confirmation{
+    font-family: 'josefin slab', serif;
+    font-size: 2em;
+}
+.services{
+    border: 2px solid #000;
+    text-align: left;
+    justify-content: left;
+    max-width: 50%;
+    margin: 0 auto;
+}
+/*contact*/
+.info{
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    margin: 0 auto;
+    max-width: 75%;
 }

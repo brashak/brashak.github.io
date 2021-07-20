@@ -1,5 +1,5 @@
 h2{
-    font-family: 'Josefin Slab', serif;
+    font-family: 'bangers', cursive;
     font-weight: bold;
     font-size: 2.5em;
 }
@@ -19,7 +19,13 @@ img {
     display: grid;
     grid-template-columns: 1fr; 
     gap: 5px; 
-  }
+}
+div{
+    font-family: 'josefin slab', serif;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 2px;
+}
 
 @media only screen and (min-width: 32.5em) { 
 .cards {
