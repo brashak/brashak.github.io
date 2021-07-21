@@ -109,7 +109,7 @@ footer {
 }
 .home-services{
     display: grid;
-    font-family: 'Josefin', serif;
+    font-family: 'Josefin Slab', serif;
     width: 50%;
     font-weight: bold;
     border: 2px solid #000;
@@ -204,7 +204,7 @@ form {
     max-width: 15em;
     font-family: 'josefin slab', serif;
   }
-.confirmation{
+.confirmation .thanks{
     font-family: 'josefin slab', serif;
     font-size: 2em;
 }
