@@ -12,18 +12,13 @@ fetch(requestURL)
        let h2 = document.createElement('h2');
        let image = document.createElement('img');
        let  summary = document.createElement('div');
-       let  website = document.createElement('div');
        h2.textContent = tours[i].tourname;
        summary.setAttribute('class', 'summary')
-       summary.textContent = 'Summary: ' + tours[i].summary;
-       website.setAttribute('href', tours[i].website);
-       website.innerHTML = tours[i].website;
-       website.textContent = 'Book Now:' + tours[i].website;
+       summary.textContent = ' ' + tours[i].summary;
        image.setAttribute('src', tours[i].imageurl);
        image.setAttribute('alt', tours[i].tourname);
        card.appendChild(h2);
        card.appendChild(summary);
-       card.appendChild(website);
        card.appendChild(image);
        document.querySelector('div.cards').appendChild(card);
    }

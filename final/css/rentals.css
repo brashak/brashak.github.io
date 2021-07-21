@@ -25,6 +25,7 @@ div{
     font-weight: bold;
     padding: 5px;
     margin-bottom: 2px;
+    font-size: 1.2em;
 }
 
 @media only screen and (min-width: 32.5em) { 
@@ -34,6 +35,8 @@ div{
 img {
     width: 70%;
 }
+div{
+    font-family: 'josefin slab', serif;}
 }
   
 @media only screen and (min-width: 60em) { 

@@ -31,6 +31,9 @@ h2, h3{
     float: left;
     width: auto; 
     margin-top: 30px; 
+    margin: 5px auto 0 auto;
+    display: block;
+    box-shadow: 0px 0px 10px 5px #000;
 }
 nav {
 	margin: 0 auto;
@@ -52,7 +55,7 @@ nav {
 }
 .navigation a {
 	display: block;
-    font-family: 'sanchez', serif;
+    font-family: 'josefin slab', serif;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
@@ -62,6 +65,16 @@ nav {
 .navigation a:hover {
 	color: #fff;
 	background-color: #31572C;
+}
+.navigation a:visited{
+    color: #000;
+}
+.navigation a:active{
+    color: #fff;
+}
+.active{
+    background-color: #31572c;
+    color: #fff;
 }
 .responsive li{
     display: none;
@@ -134,6 +147,16 @@ footer {
 .forecast{
     display: none;
 }
+.rental-summary ul{
+    font-family: 'bangers', cursive;
+    background-color: #31572C;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+.rental-summary ul a:visited{
+    color: #fff;
+}
 /*reservations*/
 form {
     color: #000;
@@ -145,7 +168,7 @@ form {
     margin: 0 auto;;
     border: 2px solid #000;
     padding: 2em;
-    max-width: 80%;
+    max-width: 60%;
 } 
   form legend {
     color: #31572c;
@@ -194,8 +217,36 @@ form {
 }
 /*contact*/
 .info{
+    display: block;
     font-family: 'Josefin Slab', serif;
     font-weight: bold;
     margin: 0 auto;
     max-width: 75%;
+}
+input.submit-button{
+    border: none;
+    background-color: #31572C;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 15px;
+    margin: 0 2em 5%;
+    width: 90%;
+    max-width: 15em;
+    font-family: 'josefin slab', serif;
+}
+legend{
+    font-family: 'bangers', cursive;
+    color: #31572C;
+    font-size: 1.2em;
+}
+fieldset{
+    margin: 0 auto;;
+    border: 2px solid #000;
+    padding: 2em;
+    max-width: 45%;
+}
+.contact{
+    border: 2px solid #000;
+    max-width: 75%;
+    margin: 0 auto;
 }
